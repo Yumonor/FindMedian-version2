@@ -1,0 +1,720 @@
+$date
+    May 10, 2020  22:56:42
+$end
+$version
+    TOOL:	ncsim	15.20-s039
+$end
+$timescale
+    1 ns
+$end
+
+$scope module tb $end
+$var reg       8 !    A [7:0] $end
+$var reg       8 "    B [7:0] $end
+$var reg       1 #    Add_ctrl  $end
+$var wire      1 $    SUM [7] $end
+$var wire      1 %    SUM [6] $end
+$var wire      1 &    SUM [5] $end
+$var wire      1 '    SUM [4] $end
+$var wire      1 (    SUM [3] $end
+$var wire      1 )    SUM [2] $end
+$var wire      1 *    SUM [1] $end
+$var wire      1 +    SUM [0] $end
+$var wire      1 ,    C_out  $end
+
+$scope module uut $end
+$var wire      1 -    A [7] $end
+$var wire      1 .    A [6] $end
+$var wire      1 /    A [5] $end
+$var wire      1 0    A [4] $end
+$var wire      1 1    A [3] $end
+$var wire      1 2    A [2] $end
+$var wire      1 3    A [1] $end
+$var wire      1 4    A [0] $end
+$var wire      1 5    B [7] $end
+$var wire      1 6    B [6] $end
+$var wire      1 7    B [5] $end
+$var wire      1 8    B [4] $end
+$var wire      1 9    B [3] $end
+$var wire      1 :    B [2] $end
+$var wire      1 ;    B [1] $end
+$var wire      1 <    B [0] $end
+$var wire      1 =    Add_ctrl  $end
+$var wire      1 $    SUM [7] $end
+$var wire      1 %    SUM [6] $end
+$var wire      1 &    SUM [5] $end
+$var wire      1 '    SUM [4] $end
+$var wire      1 (    SUM [3] $end
+$var wire      1 )    SUM [2] $end
+$var wire      1 *    SUM [1] $end
+$var wire      1 +    SUM [0] $end
+$var wire      1 ,    C_out  $end
+$var wire      1 >    _B [7] $end
+$var wire      1 ?    _B [6] $end
+$var wire      1 @    _B [5] $end
+$var wire      1 A    _B [4] $end
+$var wire      1 B    _B [3] $end
+$var wire      1 C    _B [2] $end
+$var wire      1 D    _B [1] $end
+$var wire      1 E    _B [0] $end
+
+$scope module BA0 $end
+$var wire      1 -    A [7] $end
+$var wire      1 .    A [6] $end
+$var wire      1 /    A [5] $end
+$var wire      1 0    A [4] $end
+$var wire      1 1    A [3] $end
+$var wire      1 2    A [2] $end
+$var wire      1 3    A [1] $end
+$var wire      1 4    A [0] $end
+$var wire      1 >    B [7] $end
+$var wire      1 ?    B [6] $end
+$var wire      1 @    B [5] $end
+$var wire      1 A    B [4] $end
+$var wire      1 B    B [3] $end
+$var wire      1 C    B [2] $end
+$var wire      1 D    B [1] $end
+$var wire      1 E    B [0] $end
+$var wire      1 =    CarryIn  $end
+$var wire      1 $    SUM [7] $end
+$var wire      1 %    SUM [6] $end
+$var wire      1 &    SUM [5] $end
+$var wire      1 '    SUM [4] $end
+$var wire      1 (    SUM [3] $end
+$var wire      1 )    SUM [2] $end
+$var wire      1 *    SUM [1] $end
+$var wire      1 +    SUM [0] $end
+$var wire      1 ,    CarryOut  $end
+$var wire      1 F    c0  $end
+
+$scope module CA0 $end
+$var wire      1 1    A [3] $end
+$var wire      1 2    A [2] $end
+$var wire      1 3    A [1] $end
+$var wire      1 4    A [0] $end
+$var wire      1 B    B [3] $end
+$var wire      1 C    B [2] $end
+$var wire      1 D    B [1] $end
+$var wire      1 E    B [0] $end
+$var wire      1 =    CarryIn  $end
+$var wire      1 (    SUM [3] $end
+$var wire      1 )    SUM [2] $end
+$var wire      1 *    SUM [1] $end
+$var wire      1 +    SUM [0] $end
+$var wire      1 F    CarryOut  $end
+$var wire      1 G    c0  $end
+$var wire      1 H    c1  $end
+$var wire      1 I    c2  $end
+$var wire      1 J    p [3] $end
+$var wire      1 K    p [2] $end
+$var wire      1 L    p [1] $end
+$var wire      1 M    p [0] $end
+$var wire      1 N    g [3] $end
+$var wire      1 O    g [2] $end
+$var wire      1 P    g [1] $end
+$var wire      1 Q    g [0] $end
+$var wire      1 R    z00  $end
+$var wire      1 S    z10  $end
+$var wire      1 T    z11  $end
+$var wire      1 U    z20  $end
+$var wire      1 V    z21  $end
+$var wire      1 W    z22  $end
+$var wire      1 X    z30  $end
+$var wire      1 Y    z31  $end
+$var wire      1 Z    z32  $end
+$var wire      1 [    z33  $end
+$upscope $end
+
+
+$scope module CA1 $end
+$var wire      1 -    A [3] $end
+$var wire      1 .    A [2] $end
+$var wire      1 /    A [1] $end
+$var wire      1 0    A [0] $end
+$var wire      1 >    B [3] $end
+$var wire      1 ?    B [2] $end
+$var wire      1 @    B [1] $end
+$var wire      1 A    B [0] $end
+$var wire      1 F    CarryIn  $end
+$var wire      1 $    SUM [3] $end
+$var wire      1 %    SUM [2] $end
+$var wire      1 &    SUM [1] $end
+$var wire      1 '    SUM [0] $end
+$var wire      1 ,    CarryOut  $end
+$var wire      1 \    c0  $end
+$var wire      1 ]    c1  $end
+$var wire      1 ^    c2  $end
+$var wire      1 _    p [3] $end
+$var wire      1 `    p [2] $end
+$var wire      1 a    p [1] $end
+$var wire      1 b    p [0] $end
+$var wire      1 c    g [3] $end
+$var wire      1 d    g [2] $end
+$var wire      1 e    g [1] $end
+$var wire      1 f    g [0] $end
+$var wire      1 g    z00  $end
+$var wire      1 h    z10  $end
+$var wire      1 i    z11  $end
+$var wire      1 j    z20  $end
+$var wire      1 k    z21  $end
+$var wire      1 l    z22  $end
+$var wire      1 m    z30  $end
+$var wire      1 n    z31  $end
+$var wire      1 o    z32  $end
+$var wire      1 p    z33  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+b0 "
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+$end
+#5
+b11001100 !
+b10101010 "
+15
+17
+19
+1;
+1-
+1.
+11
+12
+1K
+1)
+0(
+1J
+1`
+1%
+0$
+1_
+1D
+1B
+1@
+1>
+1c
+1a
+1&
+1N
+1L
+1*
+1,
+1F
+1'
+#10
+b10011001 !
+b1010101 "
+05
+16
+07
+18
+09
+1:
+0;
+1<
+0.
+10
+02
+14
+0+
+1M
+1K
+1)
+0'
+1b
+1`
+0i
+0]
+1E
+0D
+1C
+0B
+1A
+0@
+1?
+0>
+1$
+0c
+1%
+0a
+1f
+1(
+0N
+0L
+1Q
+0,
+0g
+1\
+0F
+1G
+#15
+b110011 !
+b10101010 "
+15
+06
+17
+08
+19
+0:
+1;
+0<
+0-
+1/
+01
+13
+1L
+0*
+1(
+1J
+1a
+0&
+1$
+1_
+0E
+1D
+0C
+1B
+0A
+1@
+0?
+1>
+0`
+1e
+1'
+0f
+0K
+1P
+1+
+0Q
+1]
+1H
+0G
+0\
+#20
+b1100110 !
+b1010101 "
+05
+16
+07
+18
+09
+1:
+0;
+1<
+1.
+00
+12
+04
+1+
+1M
+1K
+0)
+1'
+1b
+1`
+0%
+1E
+0D
+1C
+0B
+1A
+0@
+1?
+0>
+1$
+0_
+1d
+0e
+1(
+0J
+1O
+0P
+1&
+1^
+1*
+1I
+0H
+0]
+#25
+b11111111 !
+b11111111 "
+15
+17
+19
+1;
+1-
+10
+11
+14
+0+
+1Q
+1(
+1J
+1'
+1f
+1$
+1_
+1D
+1B
+1@
+1>
+1c
+1e
+1N
+1P
+1o
+1n
+1m
+1,
+1\
+1h
+1]
+1%
+1k
+1j
+1Z
+1Y
+1X
+1F
+1G
+1S
+1H
+1)
+1V
+1U
+1p
+1g
+1i
+1l
+#30
+b11001100 !
+b10101010 "
+1#
+06
+08
+0:
+0<
+0/
+00
+03
+04
+1=
+0>
+0@
+0B
+0D
+0[
+0T
+0W
+0Q
+0P
+1R
+0'
+0f
+0e
+0o
+0n
+0h
+0k
+0j
+0S
+0V
+0U
+0Z
+0Y
+0L
+0(
+0N
+0a
+0$
+0c
+0p
+0i
+0]
+0%
+0l
+0H
+0)
+#35
+b10011001 !
+b1010101 "
+05
+16
+07
+18
+09
+1:
+0;
+1<
+0.
+10
+02
+14
+0+
+0Q
+0O
+1)
+0'
+0f
+0d
+1%
+0E
+1D
+0C
+1B
+0A
+1@
+0?
+1>
+0$
+1c
+0`
+1a
+0(
+1N
+0K
+1L
+0m
+0&
+0^
+0X
+0*
+0I
+1T
+1H
+1i
+1]
+#40
+b110011 !
+b10101010 "
+15
+06
+17
+08
+19
+0:
+1;
+0<
+0-
+1/
+01
+13
+0P
+0*
+1(
+0N
+0e
+0&
+1$
+0c
+1E
+0D
+1C
+0B
+1A
+0@
+1?
+0>
+0_
+1`
+0'
+1f
+0J
+1K
+1+
+1Q
+0,
+1h
+0%
+0l
+1k
+1^
+0F
+1S
+0)
+1W
+1V
+1I
+0i
+0g
+#45
+b1100110 !
+b1010101 "
+05
+16
+07
+18
+09
+1:
+0;
+1<
+1.
+00
+12
+04
+1+
+0Q
+0O
+0S
+0)
+1'
+0f
+0d
+0h
+1]
+0E
+1D
+0C
+1B
+0A
+1@
+0?
+1>
+0$
+1_
+0%
+1e
+0b
+0(
+1J
+1P
+0M
+1n
+1,
+0\
+0k
+1j
+1Y
+1F
+0R
+0G
+0W
+0V
+1U
+0T
+#50
+b11111111 !
+b11111111 "
+15
+17
+19
+1;
+1-
+10
+11
+14
+0+
+1M
+0(
+0N
+0'
+1b
+0$
+0c
+0D
+0B
+0@
+0>
+0e
+0P
+0n
+1,
+1p
+1g
+1\
+1i
+1l
+0j
+0Y
+1F
+1[
+1R
+1G
+1T
+1W
+0U
+#55

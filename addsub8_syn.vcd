@@ -1,0 +1,8865 @@
+$date
+    May 10, 2020  23:14:44
+$end
+$version
+    TOOL:	ncsim	15.20-s039
+$end
+$timescale
+    1 ps
+$end
+
+$scope module tb $end
+$var reg       8 !    A [7:0] $end
+$var reg       8 "    B [7:0] $end
+$var reg       1 #    Add_ctrl  $end
+$var wire      1 $    SUM [7] $end
+$var wire      1 %    SUM [6] $end
+$var wire      1 &    SUM [5] $end
+$var wire      1 '    SUM [4] $end
+$var wire      1 (    SUM [3] $end
+$var wire      1 )    SUM [2] $end
+$var wire      1 *    SUM [1] $end
+$var wire      1 +    SUM [0] $end
+$var wire      1 ,    C_out  $end
+
+$scope module uut $end
+$var wire      1 -    A [7] $end
+$var wire      1 .    A [6] $end
+$var wire      1 /    A [5] $end
+$var wire      1 0    A [4] $end
+$var wire      1 1    A [3] $end
+$var wire      1 2    A [2] $end
+$var wire      1 3    A [1] $end
+$var wire      1 4    A [0] $end
+$var wire      1 5    B [7] $end
+$var wire      1 6    B [6] $end
+$var wire      1 7    B [5] $end
+$var wire      1 8    B [4] $end
+$var wire      1 9    B [3] $end
+$var wire      1 :    B [2] $end
+$var wire      1 ;    B [1] $end
+$var wire      1 <    B [0] $end
+$var wire      1 $    SUM [7] $end
+$var wire      1 %    SUM [6] $end
+$var wire      1 &    SUM [5] $end
+$var wire      1 '    SUM [4] $end
+$var wire      1 (    SUM [3] $end
+$var wire      1 )    SUM [2] $end
+$var wire      1 *    SUM [1] $end
+$var wire      1 +    SUM [0] $end
+$var wire      1 =    Add_ctrl  $end
+$var wire      1 ,    C_out  $end
+$var wire      1 >    _B [7] $end
+$var wire      1 ?    _B [6] $end
+$var wire      1 @    _B [5] $end
+$var wire      1 A    _B [4] $end
+$var wire      1 B    _B [3] $end
+$var wire      1 C    _B [2] $end
+$var wire      1 D    _B [1] $end
+$var wire      1 E    _B [0] $end
+
+$scope module BA0 $end
+$var wire      1 -    A [7] $end
+$var wire      1 .    A [6] $end
+$var wire      1 /    A [5] $end
+$var wire      1 0    A [4] $end
+$var wire      1 1    A [3] $end
+$var wire      1 2    A [2] $end
+$var wire      1 3    A [1] $end
+$var wire      1 4    A [0] $end
+$var wire      1 >    B [7] $end
+$var wire      1 ?    B [6] $end
+$var wire      1 @    B [5] $end
+$var wire      1 A    B [4] $end
+$var wire      1 B    B [3] $end
+$var wire      1 C    B [2] $end
+$var wire      1 D    B [1] $end
+$var wire      1 E    B [0] $end
+$var wire      1 $    SUM [7] $end
+$var wire      1 %    SUM [6] $end
+$var wire      1 &    SUM [5] $end
+$var wire      1 '    SUM [4] $end
+$var wire      1 (    SUM [3] $end
+$var wire      1 )    SUM [2] $end
+$var wire      1 *    SUM [1] $end
+$var wire      1 +    SUM [0] $end
+$var wire      1 =    CarryIn  $end
+$var wire      1 ,    CarryOut  $end
+$var wire      1 F    c0  $end
+
+$scope module CA0 $end
+$var wire      1 1    A [3] $end
+$var wire      1 2    A [2] $end
+$var wire      1 3    A [1] $end
+$var wire      1 4    A [0] $end
+$var wire      1 B    B [3] $end
+$var wire      1 C    B [2] $end
+$var wire      1 D    B [1] $end
+$var wire      1 E    B [0] $end
+$var wire      1 (    SUM [3] $end
+$var wire      1 )    SUM [2] $end
+$var wire      1 *    SUM [1] $end
+$var wire      1 +    SUM [0] $end
+$var wire      1 =    CarryIn  $end
+$var wire      1 F    CarryOut  $end
+$var wire      1 G    n1  $end
+$var wire      1 H    n2  $end
+$var wire      1 I    n3  $end
+$var wire      1 J    n4  $end
+$var wire      1 K    n5  $end
+$var wire      1 L    n6  $end
+$var wire      1 M    n7  $end
+$var wire      1 N    n8  $end
+$var wire      1 O    n9  $end
+$var wire      1 P    n10  $end
+$var wire      1 Q    n11  $end
+
+$scope module U1 $end
+$var wire      1 G    Y  $end
+$var wire      1 2    A  $end
+$var wire      1 K    B  $end
+$upscope $end
+
+
+$scope module U2 $end
+$var wire      1 (    Y  $end
+$var wire      1 H    A  $end
+$var wire      1 I    B  $end
+$upscope $end
+
+
+$scope module U3 $end
+$var wire      1 H    Y  $end
+$var wire      1 1    A  $end
+$var wire      1 B    B  $end
+$upscope $end
+
+
+$scope module U4 $end
+$var wire      1 )    Y  $end
+$var wire      1 J    A  $end
+$var wire      1 K    B  $end
+$upscope $end
+
+
+$scope module U5 $end
+$var wire      1 J    Y  $end
+$var wire      1 2    A  $end
+$var wire      1 C    B  $end
+$upscope $end
+
+
+$scope module U6 $end
+$var wire      1 *    Y  $end
+$var wire      1 L    A  $end
+$var wire      1 M    B  $end
+$upscope $end
+
+
+$scope module U7 $end
+$var wire      1 L    Y  $end
+$var wire      1 3    A  $end
+$var wire      1 D    B  $end
+$upscope $end
+
+
+$scope module U8 $end
+$var wire      1 +    Y  $end
+$var wire      1 4    A  $end
+$var wire      1 N    B  $end
+$upscope $end
+
+
+$scope module U9 $end
+$var wire      1 N    Y  $end
+$var wire      1 =    A  $end
+$var wire      1 E    B  $end
+$upscope $end
+
+
+$scope module U10 $end
+$var wire      1 F    Y  $end
+$var wire      1 I    A0N  $end
+$var wire      1 1    A1N  $end
+$var wire      1 O    B0  $end
+$var wire      1 R    outA  $end
+$upscope $end
+
+
+$scope module U11 $end
+$var wire      1 O    Y  $end
+$var wire      1 1    A0  $end
+$var wire      1 I    A1  $end
+$var wire      1 B    B0  $end
+$var wire      1 S    outA  $end
+$upscope $end
+
+
+$scope module U12 $end
+$var wire      1 I    Y  $end
+$var wire      1 G    A0  $end
+$var wire      1 C    A1  $end
+$var wire      1 K    B0  $end
+$var wire      1 2    B1  $end
+$var wire      1 T    outA  $end
+$var wire      1 U    outB  $end
+$upscope $end
+
+
+$scope module U13 $end
+$var wire      1 K    Y  $end
+$var wire      1 M    A0N  $end
+$var wire      1 3    A1N  $end
+$var wire      1 P    B0  $end
+$var wire      1 V    outA  $end
+$upscope $end
+
+
+$scope module U14 $end
+$var wire      1 P    Y  $end
+$var wire      1 3    A0  $end
+$var wire      1 M    A1  $end
+$var wire      1 D    B0  $end
+$var wire      1 W    outA  $end
+$upscope $end
+
+
+$scope module U15 $end
+$var wire      1 M    Y  $end
+$var wire      1 4    A0N  $end
+$var wire      1 E    A1N  $end
+$var wire      1 Q    B0  $end
+$var wire      1 X    outA  $end
+$upscope $end
+
+
+$scope module U16 $end
+$var wire      1 Q    Y  $end
+$var wire      1 4    A0  $end
+$var wire      1 E    A1  $end
+$var wire      1 =    B0  $end
+$var wire      1 Y    outA  $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module CA1 $end
+$var wire      1 -    A [3] $end
+$var wire      1 .    A [2] $end
+$var wire      1 /    A [1] $end
+$var wire      1 0    A [0] $end
+$var wire      1 >    B [3] $end
+$var wire      1 ?    B [2] $end
+$var wire      1 @    B [1] $end
+$var wire      1 A    B [0] $end
+$var wire      1 $    SUM [3] $end
+$var wire      1 %    SUM [2] $end
+$var wire      1 &    SUM [1] $end
+$var wire      1 '    SUM [0] $end
+$var wire      1 F    CarryIn  $end
+$var wire      1 ,    CarryOut  $end
+$var wire      1 Z    n1  $end
+$var wire      1 [    n2  $end
+$var wire      1 \    n3  $end
+$var wire      1 ]    n4  $end
+$var wire      1 ^    n5  $end
+$var wire      1 _    n6  $end
+$var wire      1 `    n7  $end
+$var wire      1 a    n8  $end
+$var wire      1 b    n9  $end
+$var wire      1 c    n10  $end
+$var wire      1 d    n11  $end
+
+$scope module U1 $end
+$var wire      1 Z    Y  $end
+$var wire      1 .    A  $end
+$var wire      1 ^    B  $end
+$upscope $end
+
+
+$scope module U2 $end
+$var wire      1 $    Y  $end
+$var wire      1 [    A  $end
+$var wire      1 \    B  $end
+$upscope $end
+
+
+$scope module U3 $end
+$var wire      1 [    Y  $end
+$var wire      1 -    A  $end
+$var wire      1 >    B  $end
+$upscope $end
+
+
+$scope module U4 $end
+$var wire      1 %    Y  $end
+$var wire      1 ]    A  $end
+$var wire      1 ^    B  $end
+$upscope $end
+
+
+$scope module U5 $end
+$var wire      1 ]    Y  $end
+$var wire      1 .    A  $end
+$var wire      1 ?    B  $end
+$upscope $end
+
+
+$scope module U6 $end
+$var wire      1 &    Y  $end
+$var wire      1 _    A  $end
+$var wire      1 `    B  $end
+$upscope $end
+
+
+$scope module U7 $end
+$var wire      1 _    Y  $end
+$var wire      1 /    A  $end
+$var wire      1 @    B  $end
+$upscope $end
+
+
+$scope module U8 $end
+$var wire      1 '    Y  $end
+$var wire      1 0    A  $end
+$var wire      1 a    B  $end
+$upscope $end
+
+
+$scope module U9 $end
+$var wire      1 a    Y  $end
+$var wire      1 F    A  $end
+$var wire      1 A    B  $end
+$upscope $end
+
+
+$scope module U10 $end
+$var wire      1 ,    Y  $end
+$var wire      1 \    A0N  $end
+$var wire      1 -    A1N  $end
+$var wire      1 b    B0  $end
+$var wire      1 e    outA  $end
+$upscope $end
+
+
+$scope module U11 $end
+$var wire      1 b    Y  $end
+$var wire      1 -    A0  $end
+$var wire      1 \    A1  $end
+$var wire      1 >    B0  $end
+$var wire      1 f    outA  $end
+$upscope $end
+
+
+$scope module U12 $end
+$var wire      1 \    Y  $end
+$var wire      1 Z    A0  $end
+$var wire      1 ?    A1  $end
+$var wire      1 ^    B0  $end
+$var wire      1 .    B1  $end
+$var wire      1 g    outA  $end
+$var wire      1 h    outB  $end
+$upscope $end
+
+
+$scope module U13 $end
+$var wire      1 ^    Y  $end
+$var wire      1 `    A0N  $end
+$var wire      1 /    A1N  $end
+$var wire      1 c    B0  $end
+$var wire      1 i    outA  $end
+$upscope $end
+
+
+$scope module U14 $end
+$var wire      1 c    Y  $end
+$var wire      1 /    A0  $end
+$var wire      1 `    A1  $end
+$var wire      1 @    B0  $end
+$var wire      1 j    outA  $end
+$upscope $end
+
+
+$scope module U15 $end
+$var wire      1 `    Y  $end
+$var wire      1 0    A0N  $end
+$var wire      1 A    A1N  $end
+$var wire      1 d    B0  $end
+$var wire      1 k    outA  $end
+$upscope $end
+
+
+$scope module U16 $end
+$var wire      1 d    Y  $end
+$var wire      1 0    A0  $end
+$var wire      1 A    A1  $end
+$var wire      1 F    B0  $end
+$var wire      1 l    outA  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope module U9 $end
+$var wire      1 >    Y  $end
+$var wire      1 5    A  $end
+$var wire      1 =    B  $end
+$upscope $end
+
+
+$scope module U10 $end
+$var wire      1 ?    Y  $end
+$var wire      1 6    A  $end
+$var wire      1 =    B  $end
+$upscope $end
+
+
+$scope module U11 $end
+$var wire      1 @    Y  $end
+$var wire      1 7    A  $end
+$var wire      1 =    B  $end
+$upscope $end
+
+
+$scope module U12 $end
+$var wire      1 A    Y  $end
+$var wire      1 8    A  $end
+$var wire      1 =    B  $end
+$upscope $end
+
+
+$scope module U13 $end
+$var wire      1 B    Y  $end
+$var wire      1 9    A  $end
+$var wire      1 =    B  $end
+$upscope $end
+
+
+$scope module U14 $end
+$var wire      1 C    Y  $end
+$var wire      1 :    A  $end
+$var wire      1 =    B  $end
+$upscope $end
+
+
+$scope module U15 $end
+$var wire      1 D    Y  $end
+$var wire      1 ;    A  $end
+$var wire      1 =    B  $end
+$upscope $end
+
+
+$scope module U16 $end
+$var wire      1 E    Y  $end
+$var wire      1 <    A  $end
+$var wire      1 =    B  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope module TIELO $end
+$var wire      1 m    Y  $end
+$upscope $end
+
+
+$scope module TIEHI $end
+$var wire      1 n    Y  $end
+$upscope $end
+
+
+$scope module DLY4X4 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module DLY3X4 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module DLY2X4 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module DLY1X4 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module DLY4X1 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module DLY3X1 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module DLY2X1 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module DLY1X1 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module RFRDX4 $end
+$var wire      1 q    BRB  $end
+$var wire      1 r    RB  $end
+$var reg       1 s    NOTIFIER  $end
+$var wire      1 r    io_wire  $end
+$upscope $end
+
+
+$scope module RFRDX2 $end
+$var wire      1 t    BRB  $end
+$var wire      1 u    RB  $end
+$var reg       1 v    NOTIFIER  $end
+$var wire      1 u    io_wire  $end
+$upscope $end
+
+
+$scope module RFRDX1 $end
+$var wire      1 w    BRB  $end
+$var wire      1 x    RB  $end
+$var reg       1 y    NOTIFIER  $end
+$var wire      1 x    io_wire  $end
+$upscope $end
+
+
+$scope module RF2R1WX1 $end
+$var wire      1 z    R1B  $end
+$var wire      1 {    R2B  $end
+$var wire      1 p    WB  $end
+$var wire      1 p    WW  $end
+$var wire      1 p    R1W  $end
+$var wire      1 p    R2W  $end
+$var reg       1 |    NOTIFIER  $end
+$var wire      1 }    WWN  $end
+$var wire      1 }    R1WN  $end
+$var wire      1 }    R2WN  $end
+$var wire      1 ~    n0  $end
+$var wire      1 !!   n2  $end
+$var wire      1 !!   n3  $end
+$upscope $end
+
+
+$scope module RF1R1WX1 $end
+$var wire      1 "!   RB  $end
+$var wire      1 p    WB  $end
+$var wire      1 p    WW  $end
+$var wire      1 p    RW  $end
+$var wire      1 p    RWN  $end
+$var reg       1 #!   NOTIFIER  $end
+$var wire      1 }    wwn  $end
+$var wire      1 $!   n0  $end
+$var wire      1 %!   n2  $end
+$upscope $end
+
+
+$scope module TLATNSRX4 $end
+$var wire      1 &!   Q  $end
+$var wire      1 '!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    GN  $end
+$var wire      1 p    RN  $end
+$var wire      1 p    SN  $end
+$var reg       1 (!   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 *!   n0  $end
+$var wire      1 +!   flgclk  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 -!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATNSRX2 $end
+$var wire      1 .!   Q  $end
+$var wire      1 /!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    GN  $end
+$var wire      1 p    RN  $end
+$var wire      1 p    SN  $end
+$var reg       1 0!   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 1!   n0  $end
+$var wire      1 +!   flgclk  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 -!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATNSRX1 $end
+$var wire      1 2!   Q  $end
+$var wire      1 3!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    GN  $end
+$var wire      1 p    RN  $end
+$var wire      1 p    SN  $end
+$var reg       1 4!   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 5!   n0  $end
+$var wire      1 +!   flgclk  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 -!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATNSRXL $end
+$var wire      1 6!   Q  $end
+$var wire      1 7!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    GN  $end
+$var wire      1 p    RN  $end
+$var wire      1 p    SN  $end
+$var reg       1 8!   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 9!   n0  $end
+$var wire      1 +!   flgclk  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 -!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATNX4 $end
+$var wire      1 :!   Q  $end
+$var wire      1 ;!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    GN  $end
+$var reg       1 <!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 >!   n0  $end
+$var wire      1 ?!   flgclk  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 A!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATNX2 $end
+$var wire      1 B!   Q  $end
+$var wire      1 C!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    GN  $end
+$var reg       1 D!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 E!   n0  $end
+$var wire      1 ?!   flgclk  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 A!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATNX1 $end
+$var wire      1 F!   Q  $end
+$var wire      1 G!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    GN  $end
+$var reg       1 H!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 I!   n0  $end
+$var wire      1 ?!   flgclk  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 A!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATNXL $end
+$var wire      1 J!   Q  $end
+$var wire      1 K!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    GN  $end
+$var reg       1 L!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 M!   n0  $end
+$var wire      1 ?!   flgclk  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 A!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATSRX4 $end
+$var wire      1 N!   Q  $end
+$var wire      1 O!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    G  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 P!   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 Q!   n0  $end
+$var wire      1 p    flgclk  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 R!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATSRX2 $end
+$var wire      1 S!   Q  $end
+$var wire      1 T!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    G  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 U!   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 V!   n0  $end
+$var wire      1 p    flgclk  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 R!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATSRX1 $end
+$var wire      1 W!   Q  $end
+$var wire      1 X!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    G  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 Y!   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 Z!   n0  $end
+$var wire      1 p    flgclk  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 R!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATSRXL $end
+$var wire      1 [!   Q  $end
+$var wire      1 \!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    G  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 ]!   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 ^!   n0  $end
+$var wire      1 p    flgclk  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 R!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATX4 $end
+$var wire      1 _!   Q  $end
+$var wire      1 `!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    G  $end
+$var reg       1 a!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 b!   n0  $end
+$var wire      1 p    flgclk  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 c!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATX2 $end
+$var wire      1 d!   Q  $end
+$var wire      1 e!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    G  $end
+$var reg       1 f!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 g!   n0  $end
+$var wire      1 p    flgclk  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 c!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATX1 $end
+$var wire      1 h!   Q  $end
+$var wire      1 i!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    G  $end
+$var reg       1 j!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 k!   n0  $end
+$var wire      1 p    flgclk  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 c!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module TLATXL $end
+$var wire      1 l!   Q  $end
+$var wire      1 m!   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    G  $end
+$var reg       1 n!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 o!   n0  $end
+$var wire      1 p    flgclk  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 c!   SandRandCLK  $end
+$upscope $end
+
+
+$scope module SMDFFHQX8 $end
+$var wire      1 p!   Q  $end
+$var wire      1 p    D0  $end
+$var wire      1 p    D1  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 q!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   nm  $end
+$var wire      1 s!   n1  $end
+$var wire      1 t!   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 v!   SEb  $end
+$var wire      1 w!   nsel  $end
+$var wire      1 x!   SandRandSEb0  $end
+$var wire      1 y!   SandRandSEb1  $end
+$var wire      1 z!   flag0  $end
+$var wire      1 {!   D0xorD1  $end
+$var wire      1 |!   flag1  $end
+$upscope $end
+
+
+$scope module SMDFFHQX4 $end
+$var wire      1 }!   Q  $end
+$var wire      1 p    D0  $end
+$var wire      1 p    D1  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 ~!   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   nm  $end
+$var wire      1 s!   n1  $end
+$var wire      1 !"   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 v!   SEb  $end
+$var wire      1 w!   nsel  $end
+$var wire      1 x!   SandRandSEb0  $end
+$var wire      1 y!   SandRandSEb1  $end
+$var wire      1 z!   flag0  $end
+$var wire      1 {!   D0xorD1  $end
+$var wire      1 |!   flag1  $end
+$upscope $end
+
+
+$scope module SMDFFHQX2 $end
+$var wire      1 ""   Q  $end
+$var wire      1 p    D0  $end
+$var wire      1 p    D1  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 #"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   nm  $end
+$var wire      1 s!   n1  $end
+$var wire      1 $"   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 v!   SEb  $end
+$var wire      1 w!   nsel  $end
+$var wire      1 x!   SandRandSEb0  $end
+$var wire      1 y!   SandRandSEb1  $end
+$var wire      1 z!   flag0  $end
+$var wire      1 {!   D0xorD1  $end
+$var wire      1 |!   flag1  $end
+$upscope $end
+
+
+$scope module SMDFFHQX1 $end
+$var wire      1 %"   Q  $end
+$var wire      1 p    D0  $end
+$var wire      1 p    D1  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 &"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   nm  $end
+$var wire      1 s!   n1  $end
+$var wire      1 '"   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 v!   SEb  $end
+$var wire      1 w!   nsel  $end
+$var wire      1 x!   SandRandSEb0  $end
+$var wire      1 y!   SandRandSEb1  $end
+$var wire      1 z!   flag0  $end
+$var wire      1 {!   D0xorD1  $end
+$var wire      1 |!   flag1  $end
+$upscope $end
+
+
+$scope module SEDFFHQX8 $end
+$var wire      1 ("   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var reg       1 )"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 *"   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 )!   scan  $end
+$var wire      1 }    notscan  $end
+$var wire      1 +"   Dcheck  $end
+$upscope $end
+
+
+$scope module SEDFFHQX4 $end
+$var wire      1 ,"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var reg       1 -"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 ."   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 )!   scan  $end
+$var wire      1 }    notscan  $end
+$var wire      1 +"   Dcheck  $end
+$upscope $end
+
+
+$scope module SEDFFHQX2 $end
+$var wire      1 /"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var reg       1 0"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 1"   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 )!   scan  $end
+$var wire      1 }    notscan  $end
+$var wire      1 +"   Dcheck  $end
+$upscope $end
+
+
+$scope module SEDFFHQX1 $end
+$var wire      1 2"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var reg       1 3"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 4"   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 )!   scan  $end
+$var wire      1 }    notscan  $end
+$var wire      1 +"   Dcheck  $end
+$upscope $end
+
+
+$scope module SDFFSRHQX8 $end
+$var wire      1 5"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 6"   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 7"   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 ;"   DxorSD  $end
+$var wire      1 <"   flag  $end
+$upscope $end
+
+
+$scope module SDFFSRHQX4 $end
+$var wire      1 ="   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 >"   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 ?"   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 @"   DxorSD  $end
+$var wire      1 A"   flag  $end
+$upscope $end
+
+
+$scope module SDFFSRHQX2 $end
+$var wire      1 B"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 C"   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 D"   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 E"   DxorSD  $end
+$var wire      1 F"   flag  $end
+$upscope $end
+
+
+$scope module SDFFSRHQX1 $end
+$var wire      1 G"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 H"   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 I"   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 J"   DxorSD  $end
+$var wire      1 K"   flag  $end
+$upscope $end
+
+
+$scope module SDFFSHQX8 $end
+$var wire      1 L"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 M"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 N"   n0  $end
+$var wire      1 O"   SandR  $end
+$var wire      1 P"   SandRandSE  $end
+$var wire      1 Q"   SEb  $end
+$var wire      1 R"   SandRandSEb  $end
+$var wire      1 S"   DxorSD  $end
+$var wire      1 T"   flag  $end
+$upscope $end
+
+
+$scope module SDFFSHQX4 $end
+$var wire      1 U"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 V"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 W"   n0  $end
+$var wire      1 O"   SandR  $end
+$var wire      1 P"   SandRandSE  $end
+$var wire      1 Q"   SEb  $end
+$var wire      1 R"   SandRandSEb  $end
+$var wire      1 X"   DxorSD  $end
+$var wire      1 Y"   flag  $end
+$upscope $end
+
+
+$scope module SDFFSHQX2 $end
+$var wire      1 Z"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 ["   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 \"   n0  $end
+$var wire      1 O"   SandR  $end
+$var wire      1 P"   SandRandSE  $end
+$var wire      1 Q"   SEb  $end
+$var wire      1 R"   SandRandSEb  $end
+$var wire      1 ]"   DxorSD  $end
+$var wire      1 ^"   flag  $end
+$upscope $end
+
+
+$scope module SDFFSHQX1 $end
+$var wire      1 _"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 `"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 a"   n0  $end
+$var wire      1 O"   SandR  $end
+$var wire      1 P"   SandRandSE  $end
+$var wire      1 Q"   SEb  $end
+$var wire      1 R"   SandRandSEb  $end
+$var wire      1 b"   DxorSD  $end
+$var wire      1 c"   flag  $end
+$upscope $end
+
+
+$scope module SDFFRHQX8 $end
+$var wire      1 d"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 e"   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 f"   n0  $end
+$var wire      1 g"   SandR  $end
+$var wire      1 h"   SandRandSE  $end
+$var wire      1 i"   SEb  $end
+$var wire      1 j"   SandRandSEb  $end
+$var wire      1 k"   DxorSD  $end
+$var wire      1 l"   flag  $end
+$upscope $end
+
+
+$scope module SDFFRHQX4 $end
+$var wire      1 m"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 n"   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 o"   n0  $end
+$var wire      1 g"   SandR  $end
+$var wire      1 h"   SandRandSE  $end
+$var wire      1 i"   SEb  $end
+$var wire      1 j"   SandRandSEb  $end
+$var wire      1 p"   DxorSD  $end
+$var wire      1 q"   flag  $end
+$upscope $end
+
+
+$scope module SDFFRHQX2 $end
+$var wire      1 r"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 s"   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 t"   n0  $end
+$var wire      1 g"   SandR  $end
+$var wire      1 h"   SandRandSE  $end
+$var wire      1 i"   SEb  $end
+$var wire      1 j"   SandRandSEb  $end
+$var wire      1 u"   DxorSD  $end
+$var wire      1 v"   flag  $end
+$upscope $end
+
+
+$scope module SDFFRHQX1 $end
+$var wire      1 w"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 x"   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 y"   n0  $end
+$var wire      1 g"   SandR  $end
+$var wire      1 h"   SandRandSE  $end
+$var wire      1 i"   SEb  $end
+$var wire      1 j"   SandRandSEb  $end
+$var wire      1 z"   DxorSD  $end
+$var wire      1 {"   flag  $end
+$upscope $end
+
+
+$scope module SDFFHQX8 $end
+$var wire      1 |"   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 }"   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 ~"   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 ##   DxorSD  $end
+$var wire      1 $#   flag  $end
+$upscope $end
+
+
+$scope module SDFFHQX4 $end
+$var wire      1 %#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 &#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 '#   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 (#   DxorSD  $end
+$var wire      1 )#   flag  $end
+$upscope $end
+
+
+$scope module SDFFHQX2 $end
+$var wire      1 *#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 +#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 ,#   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 -#   DxorSD  $end
+$var wire      1 .#   flag  $end
+$upscope $end
+
+
+$scope module SDFFHQX1 $end
+$var wire      1 /#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 0#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 1#   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 2#   DxorSD  $end
+$var wire      1 3#   flag  $end
+$upscope $end
+
+
+$scope module MDFFHQX8 $end
+$var wire      1 4#   Q  $end
+$var wire      1 p    D0  $end
+$var wire      1 p    D1  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    CK  $end
+$var reg       1 5#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 6#   nm  $end
+$var wire      1 7#   n0  $end
+$var wire      1 ?!   nsel  $end
+$var wire      1 A!   flag0  $end
+$var wire      1 8#   flag1  $end
+$var wire      1 9#   D0xorD1  $end
+$var wire      1 :#   flag  $end
+$var wire      1 @!   SandR  $end
+$upscope $end
+
+
+$scope module MDFFHQX4 $end
+$var wire      1 ;#   Q  $end
+$var wire      1 p    D0  $end
+$var wire      1 p    D1  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    CK  $end
+$var reg       1 <#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 6#   nm  $end
+$var wire      1 =#   n0  $end
+$var wire      1 ?!   nsel  $end
+$var wire      1 A!   flag0  $end
+$var wire      1 8#   flag1  $end
+$var wire      1 9#   D0xorD1  $end
+$var wire      1 :#   flag  $end
+$var wire      1 @!   SandR  $end
+$upscope $end
+
+
+$scope module MDFFHQX2 $end
+$var wire      1 >#   Q  $end
+$var wire      1 p    D0  $end
+$var wire      1 p    D1  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    CK  $end
+$var reg       1 ?#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 6#   nm  $end
+$var wire      1 @#   n0  $end
+$var wire      1 ?!   nsel  $end
+$var wire      1 A!   flag0  $end
+$var wire      1 8#   flag1  $end
+$var wire      1 9#   D0xorD1  $end
+$var wire      1 :#   flag  $end
+$var wire      1 @!   SandR  $end
+$upscope $end
+
+
+$scope module MDFFHQX1 $end
+$var wire      1 A#   Q  $end
+$var wire      1 p    D0  $end
+$var wire      1 p    D1  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    CK  $end
+$var reg       1 B#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 6#   nm  $end
+$var wire      1 C#   n0  $end
+$var wire      1 ?!   nsel  $end
+$var wire      1 A!   flag0  $end
+$var wire      1 8#   flag1  $end
+$var wire      1 9#   D0xorD1  $end
+$var wire      1 :#   flag  $end
+$var wire      1 @!   SandR  $end
+$upscope $end
+
+
+$scope module EDFFHQX8 $end
+$var wire      1 D#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var reg       1 E#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 F#   n0  $end
+$var wire      1 @!   flag  $end
+$var wire      1 8#   Dcheck  $end
+$upscope $end
+
+
+$scope module EDFFHQX4 $end
+$var wire      1 G#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var reg       1 H#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 I#   n0  $end
+$var wire      1 @!   flag  $end
+$var wire      1 8#   Dcheck  $end
+$upscope $end
+
+
+$scope module EDFFHQX2 $end
+$var wire      1 J#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var reg       1 K#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 L#   n0  $end
+$var wire      1 @!   flag  $end
+$var wire      1 8#   Dcheck  $end
+$upscope $end
+
+
+$scope module EDFFHQX1 $end
+$var wire      1 M#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var reg       1 N#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 O#   n0  $end
+$var wire      1 @!   flag  $end
+$var wire      1 8#   Dcheck  $end
+$upscope $end
+
+
+$scope module DFFSRHQX8 $end
+$var wire      1 P#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 Q#   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 R#   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSRHQX4 $end
+$var wire      1 S#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 T#   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 U#   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSRHQX2 $end
+$var wire      1 V#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 W#   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 X#   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSRHQX1 $end
+$var wire      1 Y#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 Z#   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 [#   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSHQX8 $end
+$var wire      1 \#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 ]#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 ^#   n0  $end
+$var wire      1 g"   flag  $end
+$upscope $end
+
+
+$scope module DFFSHQX4 $end
+$var wire      1 _#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 `#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 a#   n0  $end
+$var wire      1 g"   flag  $end
+$upscope $end
+
+
+$scope module DFFSHQX2 $end
+$var wire      1 b#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 c#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 d#   n0  $end
+$var wire      1 g"   flag  $end
+$upscope $end
+
+
+$scope module DFFSHQX1 $end
+$var wire      1 e#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 f#   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 g#   n0  $end
+$var wire      1 g"   flag  $end
+$upscope $end
+
+
+$scope module DFFRHQX8 $end
+$var wire      1 h#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 i#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 j#   n0  $end
+$var wire      1 O"   flag  $end
+$upscope $end
+
+
+$scope module DFFRHQX4 $end
+$var wire      1 k#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 l#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 m#   n0  $end
+$var wire      1 O"   flag  $end
+$upscope $end
+
+
+$scope module DFFRHQX2 $end
+$var wire      1 n#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 o#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 p#   n0  $end
+$var wire      1 O"   flag  $end
+$upscope $end
+
+
+$scope module DFFRHQX1 $end
+$var wire      1 q#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 r#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 s#   n0  $end
+$var wire      1 O"   flag  $end
+$upscope $end
+
+
+$scope module DFFHQX8 $end
+$var wire      1 t#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 u#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 v#   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFHQX4 $end
+$var wire      1 w#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 x#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 y#   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFHQX2 $end
+$var wire      1 z#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 {#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 |#   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFHQX1 $end
+$var wire      1 }#   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 ~#   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 !$   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module SEDFFTRX4 $end
+$var wire      1 "$   Q  $end
+$var wire      1 #$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    RN  $end
+$var reg       1 $$   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 %$   n0  $end
+$var wire      1 )!   scan  $end
+$var wire      1 &$   DandRN  $end
+$var wire      1 '$   flag  $end
+$var wire      1 ($   notscan  $end
+$var wire      1 )$   Dcheck  $end
+$var wire      1 *$   scanD  $end
+$var wire      1 +$   DRN  $end
+$var wire      1 ,$   normD  $end
+$var wire      1 -$   Deff  $end
+$var wire      1 .$   RNcheck  $end
+$var wire      1 /$   Echeck  $end
+$upscope $end
+
+
+$scope module SEDFFTRX2 $end
+$var wire      1 0$   Q  $end
+$var wire      1 1$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    RN  $end
+$var reg       1 2$   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 3$   n0  $end
+$var wire      1 )!   scan  $end
+$var wire      1 4$   DandRN  $end
+$var wire      1 5$   flag  $end
+$var wire      1 ($   notscan  $end
+$var wire      1 )$   Dcheck  $end
+$var wire      1 *$   scanD  $end
+$var wire      1 +$   DRN  $end
+$var wire      1 ,$   normD  $end
+$var wire      1 -$   Deff  $end
+$var wire      1 .$   RNcheck  $end
+$var wire      1 /$   Echeck  $end
+$upscope $end
+
+
+$scope module SEDFFTRX1 $end
+$var wire      1 6$   Q  $end
+$var wire      1 7$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    RN  $end
+$var reg       1 8$   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 9$   n0  $end
+$var wire      1 )!   scan  $end
+$var wire      1 :$   DandRN  $end
+$var wire      1 ;$   flag  $end
+$var wire      1 ($   notscan  $end
+$var wire      1 )$   Dcheck  $end
+$var wire      1 *$   scanD  $end
+$var wire      1 +$   DRN  $end
+$var wire      1 ,$   normD  $end
+$var wire      1 -$   Deff  $end
+$var wire      1 .$   RNcheck  $end
+$var wire      1 /$   Echeck  $end
+$upscope $end
+
+
+$scope module SEDFFTRXL $end
+$var wire      1 <$   Q  $end
+$var wire      1 =$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    RN  $end
+$var reg       1 >$   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 ?$   n0  $end
+$var wire      1 )!   scan  $end
+$var wire      1 @$   DandRN  $end
+$var wire      1 A$   flag  $end
+$var wire      1 ($   notscan  $end
+$var wire      1 )$   Dcheck  $end
+$var wire      1 *$   scanD  $end
+$var wire      1 +$   DRN  $end
+$var wire      1 ,$   normD  $end
+$var wire      1 -$   Deff  $end
+$var wire      1 .$   RNcheck  $end
+$var wire      1 /$   Echeck  $end
+$upscope $end
+
+
+$scope module SEDFFX4 $end
+$var wire      1 B$   Q  $end
+$var wire      1 C$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var reg       1 D$   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 E$   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 F$   SEb  $end
+$var wire      1 y!   SandRandSEbandE  $end
+$var wire      1 G$   DxorSI  $end
+$var wire      1 H$   flag  $end
+$var wire      1 "#   SandRandSEb  $end
+$upscope $end
+
+
+$scope module SEDFFX2 $end
+$var wire      1 I$   Q  $end
+$var wire      1 J$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var reg       1 K$   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 L$   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 F$   SEb  $end
+$var wire      1 y!   SandRandSEbandE  $end
+$var wire      1 G$   DxorSI  $end
+$var wire      1 H$   flag  $end
+$var wire      1 "#   SandRandSEb  $end
+$upscope $end
+
+
+$scope module SEDFFX1 $end
+$var wire      1 M$   Q  $end
+$var wire      1 N$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var reg       1 O$   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 P$   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 F$   SEb  $end
+$var wire      1 y!   SandRandSEbandE  $end
+$var wire      1 G$   DxorSI  $end
+$var wire      1 H$   flag  $end
+$var wire      1 "#   SandRandSEb  $end
+$upscope $end
+
+
+$scope module SEDFFXL $end
+$var wire      1 Q$   Q  $end
+$var wire      1 R$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    SI  $end
+$var reg       1 S$   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 T$   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 F$   SEb  $end
+$var wire      1 y!   SandRandSEbandE  $end
+$var wire      1 G$   DxorSI  $end
+$var wire      1 H$   flag  $end
+$var wire      1 "#   SandRandSEb  $end
+$upscope $end
+
+
+$scope module SDFFTRX4 $end
+$var wire      1 U$   Q  $end
+$var wire      1 V$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 W$   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 X$   n0  $end
+$var wire      1 )!   scan  $end
+$var wire      1 Y$   DandRN  $end
+$var wire      1 Z$   flag  $end
+$var wire      1 [$   notscan  $end
+$var wire      1 /$   checkD  $end
+$var wire      1 *$   scanD  $end
+$var wire      1 +$   DRN  $end
+$var wire      1 ,$   normD  $end
+$var wire      1 -$   Deff  $end
+$var wire      1 .$   checkRN  $end
+$upscope $end
+
+
+$scope module SDFFTRX2 $end
+$var wire      1 \$   Q  $end
+$var wire      1 ]$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 ^$   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 _$   n0  $end
+$var wire      1 )!   scan  $end
+$var wire      1 `$   DandRN  $end
+$var wire      1 a$   flag  $end
+$var wire      1 [$   notscan  $end
+$var wire      1 /$   checkD  $end
+$var wire      1 *$   scanD  $end
+$var wire      1 +$   DRN  $end
+$var wire      1 ,$   normD  $end
+$var wire      1 -$   Deff  $end
+$var wire      1 .$   checkRN  $end
+$upscope $end
+
+
+$scope module SDFFTRX1 $end
+$var wire      1 b$   Q  $end
+$var wire      1 c$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 d$   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 e$   n0  $end
+$var wire      1 )!   scan  $end
+$var wire      1 f$   DandRN  $end
+$var wire      1 g$   flag  $end
+$var wire      1 [$   notscan  $end
+$var wire      1 /$   checkD  $end
+$var wire      1 *$   scanD  $end
+$var wire      1 +$   DRN  $end
+$var wire      1 ,$   normD  $end
+$var wire      1 -$   Deff  $end
+$var wire      1 .$   checkRN  $end
+$upscope $end
+
+
+$scope module SDFFTRXL $end
+$var wire      1 h$   Q  $end
+$var wire      1 i$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 j$   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 k$   n0  $end
+$var wire      1 )!   scan  $end
+$var wire      1 l$   DandRN  $end
+$var wire      1 m$   flag  $end
+$var wire      1 [$   notscan  $end
+$var wire      1 /$   checkD  $end
+$var wire      1 *$   scanD  $end
+$var wire      1 +$   DRN  $end
+$var wire      1 ,$   normD  $end
+$var wire      1 -$   Deff  $end
+$var wire      1 .$   checkRN  $end
+$upscope $end
+
+
+$scope module SDFFNSRX4 $end
+$var wire      1 n$   Q  $end
+$var wire      1 o$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CKN  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 p$   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 }    clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 q$   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 r$   DxorSD  $end
+$var wire      1 s$   flag  $end
+$upscope $end
+
+
+$scope module SDFFNSRX2 $end
+$var wire      1 t$   Q  $end
+$var wire      1 u$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CKN  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 v$   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 }    clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 w$   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 r$   DxorSD  $end
+$var wire      1 s$   flag  $end
+$upscope $end
+
+
+$scope module SDFFNSRX1 $end
+$var wire      1 x$   Q  $end
+$var wire      1 y$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CKN  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 z$   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 }    clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 {$   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 r$   DxorSD  $end
+$var wire      1 s$   flag  $end
+$upscope $end
+
+
+$scope module SDFFNSRXL $end
+$var wire      1 |$   Q  $end
+$var wire      1 }$   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CKN  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 ~$   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 }    clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 !%   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 r$   DxorSD  $end
+$var wire      1 s$   flag  $end
+$upscope $end
+
+
+$scope module SDFFSRX4 $end
+$var wire      1 "%   Q  $end
+$var wire      1 #%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 $%   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 %%   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 &%   DxorSD  $end
+$var wire      1 '%   flag  $end
+$upscope $end
+
+
+$scope module SDFFSRX2 $end
+$var wire      1 (%   Q  $end
+$var wire      1 )%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 *%   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 +%   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 ,%   DxorSD  $end
+$var wire      1 -%   flag  $end
+$upscope $end
+
+
+$scope module SDFFSRX1 $end
+$var wire      1 .%   Q  $end
+$var wire      1 /%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 0%   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 1%   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 2%   DxorSD  $end
+$var wire      1 3%   flag  $end
+$upscope $end
+
+
+$scope module SDFFSRXL $end
+$var wire      1 4%   Q  $end
+$var wire      1 5%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 6%   NOTIFIER  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 7%   n0  $end
+$var wire      1 ,!   SandR  $end
+$var wire      1 8"   SandRandSE  $end
+$var wire      1 9"   SEb  $end
+$var wire      1 :"   SandRandSEb  $end
+$var wire      1 8%   DxorSD  $end
+$var wire      1 9%   flag  $end
+$upscope $end
+
+
+$scope module SDFFSX4 $end
+$var wire      1 :%   Q  $end
+$var wire      1 ;%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 <%   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 =%   n0  $end
+$var wire      1 O"   SandR  $end
+$var wire      1 P"   SandRandSE  $end
+$var wire      1 Q"   SEb  $end
+$var wire      1 R"   SandRandSEb  $end
+$var wire      1 >%   DxorSD  $end
+$var wire      1 ?%   flag  $end
+$upscope $end
+
+
+$scope module SDFFSX2 $end
+$var wire      1 @%   Q  $end
+$var wire      1 A%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 B%   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 C%   n0  $end
+$var wire      1 O"   SandR  $end
+$var wire      1 P"   SandRandSE  $end
+$var wire      1 Q"   SEb  $end
+$var wire      1 R"   SandRandSEb  $end
+$var wire      1 D%   DxorSD  $end
+$var wire      1 E%   flag  $end
+$upscope $end
+
+
+$scope module SDFFSX1 $end
+$var wire      1 F%   Q  $end
+$var wire      1 G%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 H%   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 I%   n0  $end
+$var wire      1 O"   SandR  $end
+$var wire      1 P"   SandRandSE  $end
+$var wire      1 Q"   SEb  $end
+$var wire      1 R"   SandRandSEb  $end
+$var wire      1 J%   DxorSD  $end
+$var wire      1 K%   flag  $end
+$upscope $end
+
+
+$scope module SDFFSXL $end
+$var wire      1 L%   Q  $end
+$var wire      1 M%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 N%   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   dRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 O%   n0  $end
+$var wire      1 O"   SandR  $end
+$var wire      1 P"   SandRandSE  $end
+$var wire      1 Q"   SEb  $end
+$var wire      1 R"   SandRandSEb  $end
+$var wire      1 P%   DxorSD  $end
+$var wire      1 Q%   flag  $end
+$upscope $end
+
+
+$scope module SDFFRX4 $end
+$var wire      1 R%   Q  $end
+$var wire      1 S%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 T%   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 U%   n0  $end
+$var wire      1 g"   SandR  $end
+$var wire      1 h"   SandRandSE  $end
+$var wire      1 i"   SEb  $end
+$var wire      1 j"   SandRandSEb  $end
+$var wire      1 V%   DxorSD  $end
+$var wire      1 W%   flag  $end
+$upscope $end
+
+
+$scope module SDFFRX2 $end
+$var wire      1 X%   Q  $end
+$var wire      1 Y%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 Z%   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 [%   n0  $end
+$var wire      1 g"   SandR  $end
+$var wire      1 h"   SandRandSE  $end
+$var wire      1 i"   SEb  $end
+$var wire      1 j"   SandRandSEb  $end
+$var wire      1 \%   DxorSD  $end
+$var wire      1 ]%   flag  $end
+$upscope $end
+
+
+$scope module SDFFRX1 $end
+$var wire      1 ^%   Q  $end
+$var wire      1 _%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 `%   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 a%   n0  $end
+$var wire      1 g"   SandR  $end
+$var wire      1 h"   SandRandSE  $end
+$var wire      1 i"   SEb  $end
+$var wire      1 j"   SandRandSEb  $end
+$var wire      1 b%   DxorSD  $end
+$var wire      1 c%   flag  $end
+$upscope $end
+
+
+$scope module SDFFRXL $end
+$var wire      1 d%   Q  $end
+$var wire      1 e%   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 f%   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 g%   n0  $end
+$var wire      1 g"   SandR  $end
+$var wire      1 h"   SandRandSE  $end
+$var wire      1 i"   SEb  $end
+$var wire      1 j"   SandRandSEb  $end
+$var wire      1 h%   DxorSD  $end
+$var wire      1 i%   flag  $end
+$upscope $end
+
+
+$scope module SDFFQXL $end
+$var wire      1 j%   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 k%   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 l%   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 m%   DxorSD  $end
+$var wire      1 n%   flag  $end
+$upscope $end
+
+
+$scope module SDFFQX4 $end
+$var wire      1 o%   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 p%   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 q%   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 r%   DxorSD  $end
+$var wire      1 s%   flag  $end
+$upscope $end
+
+
+$scope module SDFFQX2 $end
+$var wire      1 t%   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 u%   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 v%   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 w%   DxorSD  $end
+$var wire      1 x%   flag  $end
+$upscope $end
+
+
+$scope module SDFFQX1 $end
+$var wire      1 y%   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 z%   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 {%   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 |%   DxorSD  $end
+$var wire      1 }%   flag  $end
+$upscope $end
+
+
+$scope module SDFFX4 $end
+$var wire      1 ~%   Q  $end
+$var wire      1 !&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 "&   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 #&   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 $&   DxorSD  $end
+$var wire      1 %&   flag  $end
+$upscope $end
+
+
+$scope module SDFFX2 $end
+$var wire      1 &&   Q  $end
+$var wire      1 '&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 (&   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 )&   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 *&   DxorSD  $end
+$var wire      1 +&   flag  $end
+$upscope $end
+
+
+$scope module SDFFX1 $end
+$var wire      1 ,&   Q  $end
+$var wire      1 -&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 .&   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 /&   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 0&   DxorSD  $end
+$var wire      1 1&   flag  $end
+$upscope $end
+
+
+$scope module SDFFXL $end
+$var wire      1 2&   Q  $end
+$var wire      1 3&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    SI  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 4&   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 r!   n1  $end
+$var wire      1 5&   n0  $end
+$var wire      1 @!   SandR  $end
+$var wire      1 u!   SandRandSE  $end
+$var wire      1 !#   SEb  $end
+$var wire      1 "#   SandRandSEb  $end
+$var wire      1 6&   DxorSD  $end
+$var wire      1 7&   flag  $end
+$upscope $end
+
+
+$scope module EDFFTRX4 $end
+$var wire      1 8&   Q  $end
+$var wire      1 9&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    RN  $end
+$var reg       1 :&   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 ;&   n0  $end
+$var wire      1 <&   Deff  $end
+$var wire      1 =&   Dcheck  $end
+$var wire      1 >&   check  $end
+$upscope $end
+
+
+$scope module EDFFTRX2 $end
+$var wire      1 ?&   Q  $end
+$var wire      1 @&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    RN  $end
+$var reg       1 A&   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 B&   n0  $end
+$var wire      1 <&   Deff  $end
+$var wire      1 =&   Dcheck  $end
+$var wire      1 >&   check  $end
+$upscope $end
+
+
+$scope module EDFFTRX1 $end
+$var wire      1 C&   Q  $end
+$var wire      1 D&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    RN  $end
+$var reg       1 E&   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 F&   n0  $end
+$var wire      1 <&   Deff  $end
+$var wire      1 =&   Dcheck  $end
+$var wire      1 >&   check  $end
+$upscope $end
+
+
+$scope module EDFFTRXL $end
+$var wire      1 G&   Q  $end
+$var wire      1 H&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    RN  $end
+$var reg       1 I&   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 J&   n0  $end
+$var wire      1 <&   Deff  $end
+$var wire      1 =&   Dcheck  $end
+$var wire      1 >&   check  $end
+$upscope $end
+
+
+$scope module EDFFX4 $end
+$var wire      1 K&   Q  $end
+$var wire      1 L&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var reg       1 M&   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 N&   n0  $end
+$var wire      1 @!   flag  $end
+$var wire      1 8#   Dcheck  $end
+$upscope $end
+
+
+$scope module EDFFX2 $end
+$var wire      1 O&   Q  $end
+$var wire      1 P&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var reg       1 Q&   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 R&   n0  $end
+$var wire      1 @!   flag  $end
+$var wire      1 8#   Dcheck  $end
+$upscope $end
+
+
+$scope module EDFFX1 $end
+$var wire      1 S&   Q  $end
+$var wire      1 T&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var reg       1 U&   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 V&   n0  $end
+$var wire      1 @!   flag  $end
+$var wire      1 8#   Dcheck  $end
+$upscope $end
+
+
+$scope module EDFFXL $end
+$var wire      1 W&   Q  $end
+$var wire      1 X&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    E  $end
+$var reg       1 Y&   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   dRN  $end
+$var supply1   1 =!   dSN  $end
+$var wire      1 Z&   n0  $end
+$var wire      1 @!   flag  $end
+$var wire      1 8#   Dcheck  $end
+$upscope $end
+
+
+$scope module DFFTRX4 $end
+$var wire      1 [&   Q  $end
+$var wire      1 \&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 ]&   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   EN  $end
+$var supply1   1 =!   flag  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 O"   rn_and_sn  $end
+$var wire      1 )!   clk  $end
+$var wire      1 ^&   n0  $end
+$var wire      1 =&   Deff  $end
+$upscope $end
+
+
+$scope module DFFTRX2 $end
+$var wire      1 _&   Q  $end
+$var wire      1 `&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 a&   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   EN  $end
+$var supply1   1 =!   flag  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 O"   rn_and_sn  $end
+$var wire      1 )!   clk  $end
+$var wire      1 b&   n0  $end
+$var wire      1 =&   Deff  $end
+$upscope $end
+
+
+$scope module DFFTRX1 $end
+$var wire      1 c&   Q  $end
+$var wire      1 d&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 e&   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   EN  $end
+$var supply1   1 =!   flag  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 O"   rn_and_sn  $end
+$var wire      1 )!   clk  $end
+$var wire      1 f&   n0  $end
+$var wire      1 =&   Deff  $end
+$upscope $end
+
+
+$scope module DFFTRXL $end
+$var wire      1 g&   Q  $end
+$var wire      1 h&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 i&   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   EN  $end
+$var supply1   1 =!   flag  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 O"   rn_and_sn  $end
+$var wire      1 )!   clk  $end
+$var wire      1 j&   n0  $end
+$var wire      1 =&   Deff  $end
+$upscope $end
+
+
+$scope module DFFNSRX4 $end
+$var wire      1 k&   Q  $end
+$var wire      1 l&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CKN  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 m&   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 n&   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFNSRX2 $end
+$var wire      1 o&   Q  $end
+$var wire      1 p&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CKN  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 q&   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 r&   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFNSRX1 $end
+$var wire      1 s&   Q  $end
+$var wire      1 t&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CKN  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 u&   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 v&   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFNSRXL $end
+$var wire      1 w&   Q  $end
+$var wire      1 x&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CKN  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 y&   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 }    clk  $end
+$var wire      1 z&   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSRX4 $end
+$var wire      1 {&   Q  $end
+$var wire      1 |&   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 }&   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 ~&   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSRX2 $end
+$var wire      1 !'   Q  $end
+$var wire      1 "'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 #'   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 $'   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSRX1 $end
+$var wire      1 %'   Q  $end
+$var wire      1 &'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 ''   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 ('   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSRXL $end
+$var wire      1 )'   Q  $end
+$var wire      1 *'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var wire      1 p    RN  $end
+$var reg       1 +'   NOTIFIER  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 ,'   n0  $end
+$var wire      1 ,!   flag  $end
+$upscope $end
+
+
+$scope module DFFSX4 $end
+$var wire      1 -'   Q  $end
+$var wire      1 .'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 /'   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 0'   n0  $end
+$var wire      1 g"   flag  $end
+$upscope $end
+
+
+$scope module DFFSX2 $end
+$var wire      1 1'   Q  $end
+$var wire      1 2'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 3'   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 4'   n0  $end
+$var wire      1 g"   flag  $end
+$upscope $end
+
+
+$scope module DFFSX1 $end
+$var wire      1 5'   Q  $end
+$var wire      1 6'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 7'   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 8'   n0  $end
+$var wire      1 g"   flag  $end
+$upscope $end
+
+
+$scope module DFFSXL $end
+$var wire      1 9'   Q  $end
+$var wire      1 :'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    SN  $end
+$var reg       1 ;'   NOTIFIER  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   xSN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 <'   n0  $end
+$var wire      1 g"   flag  $end
+$upscope $end
+
+
+$scope module DFFRX4 $end
+$var wire      1 ='   Q  $end
+$var wire      1 >'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 ?'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 @'   n0  $end
+$var wire      1 O"   flag  $end
+$upscope $end
+
+
+$scope module DFFRX2 $end
+$var wire      1 A'   Q  $end
+$var wire      1 B'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 C'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 D'   n0  $end
+$var wire      1 O"   flag  $end
+$upscope $end
+
+
+$scope module DFFRX1 $end
+$var wire      1 E'   Q  $end
+$var wire      1 F'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 G'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 H'   n0  $end
+$var wire      1 O"   flag  $end
+$upscope $end
+
+
+$scope module DFFRXL $end
+$var wire      1 I'   Q  $end
+$var wire      1 J'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var wire      1 p    RN  $end
+$var reg       1 K'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var wire      1 )!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 L'   n0  $end
+$var wire      1 O"   flag  $end
+$upscope $end
+
+
+$scope module DFFQXL $end
+$var wire      1 M'   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 N'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 O'   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFQX4 $end
+$var wire      1 P'   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 Q'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 R'   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFQX2 $end
+$var wire      1 S'   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 T'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 U'   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFQX1 $end
+$var wire      1 V'   Q  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 W'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 X'   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFX4 $end
+$var wire      1 Y'   Q  $end
+$var wire      1 Z'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 ['   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 \'   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFX2 $end
+$var wire      1 ]'   Q  $end
+$var wire      1 ^'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 _'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 `'   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFX1 $end
+$var wire      1 a'   Q  $end
+$var wire      1 b'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 c'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 d'   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module DFFXL $end
+$var wire      1 e'   Q  $end
+$var wire      1 f'   QN  $end
+$var wire      1 p    D  $end
+$var wire      1 p    CK  $end
+$var reg       1 g'   NOTIFIER  $end
+$var supply1   1 =!   xSN  $end
+$var supply1   1 =!   xRN  $end
+$var wire      1 )!   clk  $end
+$var wire      1 h'   n0  $end
+$var wire      1 @!   flag  $end
+$upscope $end
+
+
+$scope module CMPR42X4 $end
+$var wire      1 i'   S  $end
+$var wire      1 j'   CO  $end
+$var wire      1 k'   ICO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    ICI  $end
+$var wire      1 l'   t1  $end
+$var wire      1 m'   IS  $end
+$var wire      1 n'   t2  $end
+$var wire      1 o'   t3  $end
+$var wire      1 p'   t4  $end
+$var wire      1 q'   ss  $end
+$var wire      1 r'   t5  $end
+$var wire      1 s'   t6  $end
+$var wire      1 t'   t7  $end
+$upscope $end
+
+
+$scope module CMPR42X2 $end
+$var wire      1 u'   S  $end
+$var wire      1 v'   CO  $end
+$var wire      1 w'   ICO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    ICI  $end
+$var wire      1 l'   t1  $end
+$var wire      1 m'   IS  $end
+$var wire      1 n'   t2  $end
+$var wire      1 o'   t3  $end
+$var wire      1 p'   t4  $end
+$var wire      1 q'   ss  $end
+$var wire      1 r'   t5  $end
+$var wire      1 s'   t6  $end
+$var wire      1 t'   t7  $end
+$upscope $end
+
+
+$scope module CMPR42X1 $end
+$var wire      1 x'   S  $end
+$var wire      1 y'   CO  $end
+$var wire      1 z'   ICO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    ICI  $end
+$var wire      1 l'   t1  $end
+$var wire      1 m'   IS  $end
+$var wire      1 n'   t2  $end
+$var wire      1 o'   t3  $end
+$var wire      1 p'   t4  $end
+$var wire      1 q'   ss  $end
+$var wire      1 r'   t5  $end
+$var wire      1 s'   t6  $end
+$var wire      1 t'   t7  $end
+$upscope $end
+
+
+$scope module AHCSHCONX4 $end
+$var wire      1 {'   S  $end
+$var wire      1 |'   CON  $end
+$var wire      1 p    A  $end
+$var wire      1 p    CI  $end
+$var wire      1 p    CS  $end
+$var wire      1 }'   csn  $end
+$var wire      1 ~'   s1  $end
+$var wire      1 !(   s2  $end
+$var wire      1 "(   s3  $end
+$var wire      1 #(   cout  $end
+$upscope $end
+
+
+$scope module AHCSHCONX2 $end
+$var wire      1 $(   S  $end
+$var wire      1 %(   CON  $end
+$var wire      1 p    A  $end
+$var wire      1 p    CI  $end
+$var wire      1 p    CS  $end
+$var wire      1 }'   csn  $end
+$var wire      1 ~'   s1  $end
+$var wire      1 !(   s2  $end
+$var wire      1 "(   s3  $end
+$var wire      1 #(   cout  $end
+$upscope $end
+
+
+$scope module AHCSHCINX4 $end
+$var wire      1 &(   S  $end
+$var wire      1 '(   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    CIN  $end
+$var wire      1 p    CS  $end
+$var wire      1 ((   ci  $end
+$var wire      1 )(   csn  $end
+$var wire      1 *(   s1  $end
+$var wire      1 +(   s2  $end
+$var wire      1 ,(   s3  $end
+$upscope $end
+
+
+$scope module AHCSHCINX2 $end
+$var wire      1 -(   S  $end
+$var wire      1 .(   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    CIN  $end
+$var wire      1 p    CS  $end
+$var wire      1 ((   ci  $end
+$var wire      1 )(   csn  $end
+$var wire      1 *(   s1  $end
+$var wire      1 +(   s2  $end
+$var wire      1 ,(   s3  $end
+$upscope $end
+
+
+$scope module ACCSIHCONX4 $end
+$var wire      1 /(   CO0N  $end
+$var wire      1 0(   CO1N  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 #(   CO0  $end
+$var wire      1 1(   CO1  $end
+$upscope $end
+
+
+$scope module ACCSIHCONX2 $end
+$var wire      1 2(   CO0N  $end
+$var wire      1 3(   CO1N  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 #(   CO0  $end
+$var wire      1 1(   CO1  $end
+$upscope $end
+
+
+$scope module ACCSHCONX4 $end
+$var wire      1 4(   CO0N  $end
+$var wire      1 5(   CO1N  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI0  $end
+$var wire      1 p    CI1  $end
+$var wire      1 >&   a_and_b  $end
+$var wire      1 6(   a_and_ci0  $end
+$var wire      1 7(   b_and_ci0  $end
+$var wire      1 8(   cout0  $end
+$var wire      1 6(   a_and_ci1  $end
+$var wire      1 7(   b_and_ci1  $end
+$var wire      1 8(   cout1  $end
+$upscope $end
+
+
+$scope module ACCSHCONX2 $end
+$var wire      1 9(   CO0N  $end
+$var wire      1 :(   CO1N  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI0  $end
+$var wire      1 p    CI1  $end
+$var wire      1 >&   a_and_b  $end
+$var wire      1 6(   a_and_ci0  $end
+$var wire      1 7(   b_and_ci0  $end
+$var wire      1 8(   cout0  $end
+$var wire      1 6(   a_and_ci1  $end
+$var wire      1 7(   b_and_ci1  $end
+$var wire      1 8(   cout1  $end
+$upscope $end
+
+
+$scope module ACCSHCINX4 $end
+$var wire      1 ;(   CO0  $end
+$var wire      1 <(   CO1  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI0N  $end
+$var wire      1 p    CI1N  $end
+$var wire      1 =(   cin1  $end
+$var wire      1 =(   cin0  $end
+$var wire      1 >&   a_and_b  $end
+$var wire      1 >(   a_and_ci0  $end
+$var wire      1 ?(   b_and_ci0  $end
+$var wire      1 >(   a_and_ci1  $end
+$var wire      1 ?(   b_and_ci1  $end
+$upscope $end
+
+
+$scope module ACCSHCINX2 $end
+$var wire      1 @(   CO0  $end
+$var wire      1 A(   CO1  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI0N  $end
+$var wire      1 p    CI1N  $end
+$var wire      1 =(   cin1  $end
+$var wire      1 =(   cin0  $end
+$var wire      1 >&   a_and_b  $end
+$var wire      1 >(   a_and_ci0  $end
+$var wire      1 ?(   b_and_ci0  $end
+$var wire      1 >(   a_and_ci1  $end
+$var wire      1 ?(   b_and_ci1  $end
+$upscope $end
+
+
+$scope module AFCSIHCONX4 $end
+$var wire      1 B(   S  $end
+$var wire      1 C(   CO0N  $end
+$var wire      1 D(   CO1N  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CS  $end
+$var wire      1 #(   CO0  $end
+$var wire      1 1(   CO1  $end
+$upscope $end
+
+
+$scope module AFCSIHCONX2 $end
+$var wire      1 E(   S  $end
+$var wire      1 F(   CO0N  $end
+$var wire      1 G(   CO1N  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CS  $end
+$var wire      1 #(   CO0  $end
+$var wire      1 1(   CO1  $end
+$upscope $end
+
+
+$scope module AFCSHCONX4 $end
+$var wire      1 H(   S  $end
+$var wire      1 I(   CO0N  $end
+$var wire      1 J(   CO1N  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI0  $end
+$var wire      1 p    CI1  $end
+$var wire      1 p    CS  $end
+$var wire      1 K(   s1  $end
+$var wire      1 L(   s2  $end
+$var wire      1 M(   s3  $end
+$var wire      1 N(   csn  $end
+$var wire      1 O(   s4  $end
+$var wire      1 >&   a_and_b  $end
+$var wire      1 6(   a_and_ci0  $end
+$var wire      1 7(   b_and_ci0  $end
+$var wire      1 8(   cout0  $end
+$var wire      1 6(   a_and_ci1  $end
+$var wire      1 7(   b_and_ci1  $end
+$var wire      1 8(   cout1  $end
+$upscope $end
+
+
+$scope module AFCSHCONX2 $end
+$var wire      1 P(   S  $end
+$var wire      1 Q(   CO0N  $end
+$var wire      1 R(   CO1N  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI0  $end
+$var wire      1 p    CI1  $end
+$var wire      1 p    CS  $end
+$var wire      1 K(   s1  $end
+$var wire      1 L(   s2  $end
+$var wire      1 M(   s3  $end
+$var wire      1 N(   csn  $end
+$var wire      1 O(   s4  $end
+$var wire      1 >&   a_and_b  $end
+$var wire      1 6(   a_and_ci0  $end
+$var wire      1 7(   b_and_ci0  $end
+$var wire      1 8(   cout0  $end
+$var wire      1 6(   a_and_ci1  $end
+$var wire      1 7(   b_and_ci1  $end
+$var wire      1 8(   cout1  $end
+$upscope $end
+
+
+$scope module AFCSHCINX4 $end
+$var wire      1 S(   S  $end
+$var wire      1 T(   CO0  $end
+$var wire      1 U(   CO1  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI0N  $end
+$var wire      1 p    CI1N  $end
+$var wire      1 p    CS  $end
+$var wire      1 V(   cin1  $end
+$var wire      1 W(   cin0  $end
+$var wire      1 X(   s1  $end
+$var wire      1 Y(   s2  $end
+$var wire      1 Z(   s3  $end
+$var wire      1 [(   csn  $end
+$var wire      1 \(   s4  $end
+$var wire      1 >&   a_and_b  $end
+$var wire      1 >(   a_and_ci0  $end
+$var wire      1 ?(   b_and_ci0  $end
+$var wire      1 >(   a_and_ci1  $end
+$var wire      1 ?(   b_and_ci1  $end
+$upscope $end
+
+
+$scope module AFCSHCINX2 $end
+$var wire      1 ](   S  $end
+$var wire      1 ^(   CO0  $end
+$var wire      1 _(   CO1  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI0N  $end
+$var wire      1 p    CI1N  $end
+$var wire      1 p    CS  $end
+$var wire      1 V(   cin1  $end
+$var wire      1 W(   cin0  $end
+$var wire      1 X(   s1  $end
+$var wire      1 Y(   s2  $end
+$var wire      1 Z(   s3  $end
+$var wire      1 [(   csn  $end
+$var wire      1 \(   s4  $end
+$var wire      1 >&   a_and_b  $end
+$var wire      1 >(   a_and_ci0  $end
+$var wire      1 ?(   b_and_ci0  $end
+$var wire      1 >(   a_and_ci1  $end
+$var wire      1 ?(   b_and_ci1  $end
+$upscope $end
+
+
+$scope module AHHCONX4 $end
+$var wire      1 `(   S  $end
+$var wire      1 a(   CON  $end
+$var wire      1 p    A  $end
+$var wire      1 p    CI  $end
+$var wire      1 #(   cout  $end
+$upscope $end
+
+
+$scope module AHHCONX2 $end
+$var wire      1 b(   S  $end
+$var wire      1 c(   CON  $end
+$var wire      1 p    A  $end
+$var wire      1 p    CI  $end
+$var wire      1 #(   cout  $end
+$upscope $end
+
+
+$scope module AHHCINX4 $end
+$var wire      1 d(   S  $end
+$var wire      1 e(   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    CIN  $end
+$var wire      1 f(   ci  $end
+$upscope $end
+
+
+$scope module AHHCINX2 $end
+$var wire      1 g(   S  $end
+$var wire      1 h(   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    CIN  $end
+$var wire      1 f(   ci  $end
+$upscope $end
+
+
+$scope module ACHCONX4 $end
+$var wire      1 i(   CON  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 j(   a_and_b  $end
+$var wire      1 k(   a_and_ci  $end
+$var wire      1 l(   b_and_ci  $end
+$var wire      1 m(   cout  $end
+$upscope $end
+
+
+$scope module ACHCONX2 $end
+$var wire      1 n(   CON  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 j(   a_and_b  $end
+$var wire      1 k(   a_and_ci  $end
+$var wire      1 l(   b_and_ci  $end
+$var wire      1 m(   cout  $end
+$upscope $end
+
+
+$scope module ACHCINX4 $end
+$var wire      1 o(   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CIN  $end
+$var wire      1 p(   a_and_b  $end
+$var wire      1 q(   ci  $end
+$var wire      1 r(   a_and_ci  $end
+$var wire      1 s(   b_and_ci  $end
+$upscope $end
+
+
+$scope module ACHCINX2 $end
+$var wire      1 t(   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CIN  $end
+$var wire      1 p(   a_and_b  $end
+$var wire      1 q(   ci  $end
+$var wire      1 r(   a_and_ci  $end
+$var wire      1 s(   b_and_ci  $end
+$upscope $end
+
+
+$scope module AFHCONX4 $end
+$var wire      1 u(   S  $end
+$var wire      1 v(   CON  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 j(   a_and_b  $end
+$var wire      1 k(   a_and_ci  $end
+$var wire      1 l(   b_and_ci  $end
+$var wire      1 m(   cout  $end
+$upscope $end
+
+
+$scope module AFHCONX2 $end
+$var wire      1 w(   S  $end
+$var wire      1 x(   CON  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 j(   a_and_b  $end
+$var wire      1 k(   a_and_ci  $end
+$var wire      1 l(   b_and_ci  $end
+$var wire      1 m(   cout  $end
+$upscope $end
+
+
+$scope module AFHCINX4 $end
+$var wire      1 y(   S  $end
+$var wire      1 z(   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CIN  $end
+$var wire      1 {(   ci  $end
+$var wire      1 p(   a_and_b  $end
+$var wire      1 r(   a_and_ci  $end
+$var wire      1 s(   b_and_ci  $end
+$upscope $end
+
+
+$scope module AFHCINX2 $end
+$var wire      1 |(   S  $end
+$var wire      1 }(   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CIN  $end
+$var wire      1 {(   ci  $end
+$var wire      1 p(   a_and_b  $end
+$var wire      1 r(   a_and_ci  $end
+$var wire      1 s(   b_and_ci  $end
+$upscope $end
+
+
+$scope module CMPR32X4 $end
+$var wire      1 ~(   S  $end
+$var wire      1 !)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 ")   t1  $end
+$var wire      1 n'   t2  $end
+$var wire      1 o'   t3  $end
+$var wire      1 p'   t4  $end
+$upscope $end
+
+
+$scope module CMPR32X2 $end
+$var wire      1 #)   S  $end
+$var wire      1 $)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 ")   t1  $end
+$var wire      1 n'   t2  $end
+$var wire      1 o'   t3  $end
+$var wire      1 p'   t4  $end
+$upscope $end
+
+
+$scope module CMPR22X4 $end
+$var wire      1 %)   S  $end
+$var wire      1 &)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CMPR22X2 $end
+$var wire      1 ')   S  $end
+$var wire      1 ()   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module BMXIX4 $end
+$var wire      1 ))   PPN  $end
+$var wire      1 p    X2  $end
+$var wire      1 p    A  $end
+$var wire      1 p    S  $end
+$var wire      1 p    M1  $end
+$var wire      1 p    M0  $end
+$var wire      1 *)   nPP  $end
+$upscope $end
+
+
+$scope module BMXIX2 $end
+$var wire      1 +)   PPN  $end
+$var wire      1 p    X2  $end
+$var wire      1 p    A  $end
+$var wire      1 p    S  $end
+$var wire      1 p    M1  $end
+$var wire      1 p    M0  $end
+$var wire      1 *)   nPP  $end
+$upscope $end
+
+
+$scope module BMXX4 $end
+$var wire      1 ,)   PP  $end
+$var wire      1 p    X2  $end
+$var wire      1 p    A  $end
+$var wire      1 p    S  $end
+$var wire      1 p    M1  $end
+$var wire      1 p    M0  $end
+$upscope $end
+
+
+$scope module BMXX2 $end
+$var wire      1 -)   PP  $end
+$var wire      1 p    X2  $end
+$var wire      1 p    A  $end
+$var wire      1 p    S  $end
+$var wire      1 p    M1  $end
+$var wire      1 p    M0  $end
+$upscope $end
+
+
+$scope module BENCX4 $end
+$var wire      1 .)   S  $end
+$var wire      1 /)   A  $end
+$var wire      1 0)   X2  $end
+$var wire      1 p    M2  $end
+$var wire      1 p    M1  $end
+$var wire      1 p    M0  $end
+$var wire      1 1)   m1n  $end
+$var wire      1 2)   m0n  $end
+$var wire      1 3)   m1n_or_m0n  $end
+$var wire      1 4)   m1_or_m0  $end
+$var wire      1 5)   m2n  $end
+$var wire      1 6)   x2n  $end
+$upscope $end
+
+
+$scope module BENCX2 $end
+$var wire      1 7)   S  $end
+$var wire      1 8)   A  $end
+$var wire      1 9)   X2  $end
+$var wire      1 p    M2  $end
+$var wire      1 p    M1  $end
+$var wire      1 p    M0  $end
+$var wire      1 1)   m1n  $end
+$var wire      1 2)   m0n  $end
+$var wire      1 3)   m1n_or_m0n  $end
+$var wire      1 4)   m1_or_m0  $end
+$var wire      1 5)   m2n  $end
+$var wire      1 6)   x2n  $end
+$upscope $end
+
+
+$scope module BENCX1 $end
+$var wire      1 :)   S  $end
+$var wire      1 ;)   A  $end
+$var wire      1 <)   X2  $end
+$var wire      1 p    M2  $end
+$var wire      1 p    M1  $end
+$var wire      1 p    M0  $end
+$var wire      1 1)   m1n  $end
+$var wire      1 2)   m0n  $end
+$var wire      1 3)   m1n_or_m0n  $end
+$var wire      1 4)   m1_or_m0  $end
+$var wire      1 5)   m2n  $end
+$var wire      1 6)   x2n  $end
+$upscope $end
+
+
+$scope module ADDFHX4 $end
+$var wire      1 =)   S  $end
+$var wire      1 >)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 n'   a_and_b  $end
+$var wire      1 o'   a_and_ci  $end
+$var wire      1 p'   b_and_ci  $end
+$upscope $end
+
+
+$scope module ADDFHX2 $end
+$var wire      1 ?)   S  $end
+$var wire      1 @)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 n'   a_and_b  $end
+$var wire      1 o'   a_and_ci  $end
+$var wire      1 p'   b_and_ci  $end
+$upscope $end
+
+
+$scope module ADDFHX1 $end
+$var wire      1 A)   S  $end
+$var wire      1 B)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 n'   a_and_b  $end
+$var wire      1 o'   a_and_ci  $end
+$var wire      1 p'   b_and_ci  $end
+$upscope $end
+
+
+$scope module ADDFHXL $end
+$var wire      1 C)   S  $end
+$var wire      1 D)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 n'   a_and_b  $end
+$var wire      1 o'   a_and_ci  $end
+$var wire      1 p'   b_and_ci  $end
+$upscope $end
+
+
+$scope module ADDFX4 $end
+$var wire      1 E)   S  $end
+$var wire      1 F)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 n'   a_and_b  $end
+$var wire      1 o'   a_and_ci  $end
+$var wire      1 p'   b_and_ci  $end
+$upscope $end
+
+
+$scope module ADDFX2 $end
+$var wire      1 G)   S  $end
+$var wire      1 H)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 n'   a_and_b  $end
+$var wire      1 o'   a_and_ci  $end
+$var wire      1 p'   b_and_ci  $end
+$upscope $end
+
+
+$scope module ADDFX1 $end
+$var wire      1 I)   S  $end
+$var wire      1 J)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 n'   a_and_b  $end
+$var wire      1 o'   a_and_ci  $end
+$var wire      1 p'   b_and_ci  $end
+$upscope $end
+
+
+$scope module ADDFXL $end
+$var wire      1 K)   S  $end
+$var wire      1 L)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    CI  $end
+$var wire      1 n'   a_and_b  $end
+$var wire      1 o'   a_and_ci  $end
+$var wire      1 p'   b_and_ci  $end
+$upscope $end
+
+
+$scope module ADDHX4 $end
+$var wire      1 M)   S  $end
+$var wire      1 N)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module ADDHX2 $end
+$var wire      1 O)   S  $end
+$var wire      1 P)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module ADDHX1 $end
+$var wire      1 Q)   S  $end
+$var wire      1 R)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module ADDHXL $end
+$var wire      1 S)   S  $end
+$var wire      1 T)   CO  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module TLATNTSCAX20 $end
+$var wire      1 U)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 V)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 W)   n1  $end
+$var wire      1 X)   n0  $end
+$upscope $end
+
+
+$scope module TLATNTSCAX16 $end
+$var wire      1 Y)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 Z)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 W)   n1  $end
+$var wire      1 [)   n0  $end
+$upscope $end
+
+
+$scope module TLATNTSCAX12 $end
+$var wire      1 \)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 ])   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 W)   n1  $end
+$var wire      1 ^)   n0  $end
+$upscope $end
+
+
+$scope module TLATNTSCAX8 $end
+$var wire      1 _)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 `)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 W)   n1  $end
+$var wire      1 a)   n0  $end
+$upscope $end
+
+
+$scope module TLATNTSCAX6 $end
+$var wire      1 b)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 c)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 W)   n1  $end
+$var wire      1 d)   n0  $end
+$upscope $end
+
+
+$scope module TLATNTSCAX4 $end
+$var wire      1 e)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 f)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 W)   n1  $end
+$var wire      1 g)   n0  $end
+$upscope $end
+
+
+$scope module TLATNTSCAX3 $end
+$var wire      1 h)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 i)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 W)   n1  $end
+$var wire      1 j)   n0  $end
+$upscope $end
+
+
+$scope module TLATNTSCAX2 $end
+$var wire      1 k)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    SE  $end
+$var wire      1 p    CK  $end
+$var reg       1 l)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 W)   n1  $end
+$var wire      1 m)   n0  $end
+$upscope $end
+
+
+$scope module TLATNCAX20 $end
+$var wire      1 n)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    CK  $end
+$var reg       1 o)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 p)   n0  $end
+$upscope $end
+
+
+$scope module TLATNCAX16 $end
+$var wire      1 q)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    CK  $end
+$var reg       1 r)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 s)   n0  $end
+$upscope $end
+
+
+$scope module TLATNCAX12 $end
+$var wire      1 t)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    CK  $end
+$var reg       1 u)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 v)   n0  $end
+$upscope $end
+
+
+$scope module TLATNCAX8 $end
+$var wire      1 w)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    CK  $end
+$var reg       1 x)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 y)   n0  $end
+$upscope $end
+
+
+$scope module TLATNCAX6 $end
+$var wire      1 z)   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    CK  $end
+$var reg       1 {)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 |)   n0  $end
+$upscope $end
+
+
+$scope module TLATNCAX4 $end
+$var wire      1 })   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    CK  $end
+$var reg       1 ~)   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 !*   n0  $end
+$upscope $end
+
+
+$scope module TLATNCAX3 $end
+$var wire      1 "*   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    CK  $end
+$var reg       1 #*   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 $*   n0  $end
+$upscope $end
+
+
+$scope module TLATNCAX2 $end
+$var wire      1 %*   ECK  $end
+$var wire      1 p    E  $end
+$var wire      1 p    CK  $end
+$var reg       1 &*   NOTIFIER  $end
+$var supply1   1 =!   R  $end
+$var supply1   1 =!   S  $end
+$var wire      1 '*   n0  $end
+$upscope $end
+
+
+$scope module CLKMX2X12 $end
+$var wire      1 (*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module CLKMX2X8 $end
+$var wire      1 )*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module CLKMX2X6 $end
+$var wire      1 **   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module CLKMX2X4 $end
+$var wire      1 +*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module CLKMX2X3 $end
+$var wire      1 ,*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module CLKMX2X2 $end
+$var wire      1 -*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module CLKAND2X12 $end
+$var wire      1 .*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKAND2X8 $end
+$var wire      1 /*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKAND2X6 $end
+$var wire      1 0*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKAND2X4 $end
+$var wire      1 1*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKAND2X3 $end
+$var wire      1 2*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKAND2X2 $end
+$var wire      1 3*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKINVX20 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKINVX16 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKINVX12 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKINVX8 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKINVX6 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKINVX4 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKINVX3 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKINVX2 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKINVX1 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKBUFX20 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKBUFX16 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKBUFX12 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKBUFX8 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKBUFX6 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKBUFX4 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKBUFX3 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module CLKBUFX2 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module XNOR3X4 $end
+$var wire      1 5*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module XNOR3X2 $end
+$var wire      1 6*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module XNOR3X1 $end
+$var wire      1 7*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module XNOR3XL $end
+$var wire      1 8*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module XNOR2X4 $end
+$var wire      1 9*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module XNOR2X2 $end
+$var wire      1 :*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module XNOR2XL $end
+$var wire      1 ;*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module XOR3X4 $end
+$var wire      1 <*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module XOR3X2 $end
+$var wire      1 =*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module XOR3X1 $end
+$var wire      1 >*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module XOR3XL $end
+$var wire      1 ?*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module XOR2X4 $end
+$var wire      1 @*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module XOR2X2 $end
+$var wire      1 A*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module XOR2XL $end
+$var wire      1 B*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKXOR2X8 $end
+$var wire      1 C*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKXOR2X4 $end
+$var wire      1 D*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKXOR2X2 $end
+$var wire      1 E*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module CLKXOR2X1 $end
+$var wire      1 F*   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module OA22X4 $end
+$var wire      1 G*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 H*   outA  $end
+$var wire      1 I*   outB  $end
+$upscope $end
+
+
+$scope module OA22X2 $end
+$var wire      1 J*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 H*   outA  $end
+$var wire      1 I*   outB  $end
+$upscope $end
+
+
+$scope module OA22X1 $end
+$var wire      1 K*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 H*   outA  $end
+$var wire      1 I*   outB  $end
+$upscope $end
+
+
+$scope module OA22XL $end
+$var wire      1 L*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 H*   outA  $end
+$var wire      1 I*   outB  $end
+$upscope $end
+
+
+$scope module OA21X4 $end
+$var wire      1 M*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 N*   outA  $end
+$upscope $end
+
+
+$scope module OA21X2 $end
+$var wire      1 O*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 N*   outA  $end
+$upscope $end
+
+
+$scope module OA21X1 $end
+$var wire      1 P*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 N*   outA  $end
+$upscope $end
+
+
+$scope module OA21XL $end
+$var wire      1 Q*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 N*   outA  $end
+$upscope $end
+
+
+$scope module OAI2BB2X4 $end
+$var wire      1 R*   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 S*   outA  $end
+$var wire      1 T*   outB  $end
+$upscope $end
+
+
+$scope module OAI2BB2X2 $end
+$var wire      1 U*   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 S*   outA  $end
+$var wire      1 T*   outB  $end
+$upscope $end
+
+
+$scope module OAI2BB2X1 $end
+$var wire      1 V*   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 S*   outA  $end
+$var wire      1 T*   outB  $end
+$upscope $end
+
+
+$scope module OAI2BB2XL $end
+$var wire      1 W*   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 S*   outA  $end
+$var wire      1 T*   outB  $end
+$upscope $end
+
+
+$scope module OAI2BB1X4 $end
+$var wire      1 X*   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 Y*   outA  $end
+$upscope $end
+
+
+$scope module OAI2BB1X2 $end
+$var wire      1 Z*   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 Y*   outA  $end
+$upscope $end
+
+
+$scope module OAI2BB1XL $end
+$var wire      1 [*   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 Y*   outA  $end
+$upscope $end
+
+
+$scope module OAI33X4 $end
+$var wire      1 \*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    B2  $end
+$var wire      1 ]*   outA  $end
+$var wire      1 ^*   outB  $end
+$upscope $end
+
+
+$scope module OAI33X2 $end
+$var wire      1 _*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    B2  $end
+$var wire      1 ]*   outA  $end
+$var wire      1 ^*   outB  $end
+$upscope $end
+
+
+$scope module OAI33X1 $end
+$var wire      1 `*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    B2  $end
+$var wire      1 ]*   outA  $end
+$var wire      1 ^*   outB  $end
+$upscope $end
+
+
+$scope module OAI33XL $end
+$var wire      1 a*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    B2  $end
+$var wire      1 ]*   outA  $end
+$var wire      1 ^*   outB  $end
+$upscope $end
+
+
+$scope module OAI32X4 $end
+$var wire      1 b*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 c*   outA  $end
+$var wire      1 d*   outB  $end
+$upscope $end
+
+
+$scope module OAI32X2 $end
+$var wire      1 e*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 c*   outA  $end
+$var wire      1 d*   outB  $end
+$upscope $end
+
+
+$scope module OAI32X1 $end
+$var wire      1 f*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 c*   outA  $end
+$var wire      1 d*   outB  $end
+$upscope $end
+
+
+$scope module OAI32XL $end
+$var wire      1 g*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 c*   outA  $end
+$var wire      1 d*   outB  $end
+$upscope $end
+
+
+$scope module OAI31X4 $end
+$var wire      1 h*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 i*   outA  $end
+$upscope $end
+
+
+$scope module OAI31X2 $end
+$var wire      1 j*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 i*   outA  $end
+$upscope $end
+
+
+$scope module OAI31X1 $end
+$var wire      1 k*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 i*   outA  $end
+$upscope $end
+
+
+$scope module OAI31XL $end
+$var wire      1 l*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 i*   outA  $end
+$upscope $end
+
+
+$scope module OAI222X4 $end
+$var wire      1 m*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 p    C1  $end
+$var wire      1 n*   outA  $end
+$var wire      1 o*   outB  $end
+$var wire      1 p*   outC  $end
+$upscope $end
+
+
+$scope module OAI222X2 $end
+$var wire      1 q*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 p    C1  $end
+$var wire      1 n*   outA  $end
+$var wire      1 o*   outB  $end
+$var wire      1 p*   outC  $end
+$upscope $end
+
+
+$scope module OAI222X1 $end
+$var wire      1 r*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 p    C1  $end
+$var wire      1 n*   outA  $end
+$var wire      1 o*   outB  $end
+$var wire      1 p*   outC  $end
+$upscope $end
+
+
+$scope module OAI222XL $end
+$var wire      1 s*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 p    C1  $end
+$var wire      1 n*   outA  $end
+$var wire      1 o*   outB  $end
+$var wire      1 p*   outC  $end
+$upscope $end
+
+
+$scope module OAI221X4 $end
+$var wire      1 t*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 u*   outA  $end
+$var wire      1 v*   outB  $end
+$upscope $end
+
+
+$scope module OAI221X2 $end
+$var wire      1 w*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 u*   outA  $end
+$var wire      1 v*   outB  $end
+$upscope $end
+
+
+$scope module OAI221X1 $end
+$var wire      1 x*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 u*   outA  $end
+$var wire      1 v*   outB  $end
+$upscope $end
+
+
+$scope module OAI221XL $end
+$var wire      1 y*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 u*   outA  $end
+$var wire      1 v*   outB  $end
+$upscope $end
+
+
+$scope module OAI22X4 $end
+$var wire      1 z*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 {*   outA  $end
+$var wire      1 |*   outB  $end
+$upscope $end
+
+
+$scope module OAI22X2 $end
+$var wire      1 }*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 {*   outA  $end
+$var wire      1 |*   outB  $end
+$upscope $end
+
+
+$scope module OAI22X1 $end
+$var wire      1 ~*   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 {*   outA  $end
+$var wire      1 |*   outB  $end
+$upscope $end
+
+
+$scope module OAI22XL $end
+$var wire      1 !+   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 {*   outA  $end
+$var wire      1 |*   outB  $end
+$upscope $end
+
+
+$scope module OAI211X4 $end
+$var wire      1 "+   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    C0  $end
+$var wire      1 #+   outA  $end
+$upscope $end
+
+
+$scope module OAI211X2 $end
+$var wire      1 $+   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    C0  $end
+$var wire      1 #+   outA  $end
+$upscope $end
+
+
+$scope module OAI211X1 $end
+$var wire      1 %+   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    C0  $end
+$var wire      1 #+   outA  $end
+$upscope $end
+
+
+$scope module OAI211XL $end
+$var wire      1 &+   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    C0  $end
+$var wire      1 #+   outA  $end
+$upscope $end
+
+
+$scope module OAI21X4 $end
+$var wire      1 '+   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 (+   outA  $end
+$upscope $end
+
+
+$scope module OAI21X2 $end
+$var wire      1 )+   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 (+   outA  $end
+$upscope $end
+
+
+$scope module OAI21X1 $end
+$var wire      1 *+   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 (+   outA  $end
+$upscope $end
+
+
+$scope module OR4X8 $end
+$var wire      1 ++   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module OR4X6 $end
+$var wire      1 ,+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module OR4X4 $end
+$var wire      1 -+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module OR4X2 $end
+$var wire      1 .+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module OR4X1 $end
+$var wire      1 /+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module OR4XL $end
+$var wire      1 0+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module OR3X8 $end
+$var wire      1 1+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module OR3X6 $end
+$var wire      1 2+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module OR3X4 $end
+$var wire      1 3+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module OR3X2 $end
+$var wire      1 4+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module OR3X1 $end
+$var wire      1 5+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module OR3XL $end
+$var wire      1 6+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module OR2X8 $end
+$var wire      1 7+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module OR2X6 $end
+$var wire      1 8+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module OR2X4 $end
+$var wire      1 9+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module OR2X2 $end
+$var wire      1 :+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module OR2XL $end
+$var wire      1 ;+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NOR4BBX4 $end
+$var wire      1 <+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    BN  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 =+   Bx  $end
+$var wire      1 >+   Ax  $end
+$upscope $end
+
+
+$scope module NOR4BBX2 $end
+$var wire      1 ?+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    BN  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 =+   Bx  $end
+$var wire      1 >+   Ax  $end
+$upscope $end
+
+
+$scope module NOR4BBX1 $end
+$var wire      1 @+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    BN  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 =+   Bx  $end
+$var wire      1 >+   Ax  $end
+$upscope $end
+
+
+$scope module NOR4BBXL $end
+$var wire      1 A+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    BN  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 =+   Bx  $end
+$var wire      1 >+   Ax  $end
+$upscope $end
+
+
+$scope module NOR4BX4 $end
+$var wire      1 B+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 C+   Ax  $end
+$upscope $end
+
+
+$scope module NOR4BX2 $end
+$var wire      1 D+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 C+   Ax  $end
+$upscope $end
+
+
+$scope module NOR4BX1 $end
+$var wire      1 E+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 C+   Ax  $end
+$upscope $end
+
+
+$scope module NOR4BXL $end
+$var wire      1 F+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 C+   Ax  $end
+$upscope $end
+
+
+$scope module NOR3BX4 $end
+$var wire      1 G+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 H+   Ax  $end
+$upscope $end
+
+
+$scope module NOR3BX2 $end
+$var wire      1 I+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 H+   Ax  $end
+$upscope $end
+
+
+$scope module NOR3BX1 $end
+$var wire      1 J+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 H+   Ax  $end
+$upscope $end
+
+
+$scope module NOR3BXL $end
+$var wire      1 K+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 H+   Ax  $end
+$upscope $end
+
+
+$scope module NOR2BX4 $end
+$var wire      1 L+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 M+   Ax  $end
+$upscope $end
+
+
+$scope module NOR2BX2 $end
+$var wire      1 N+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 M+   Ax  $end
+$upscope $end
+
+
+$scope module NOR2BX1 $end
+$var wire      1 O+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 M+   Ax  $end
+$upscope $end
+
+
+$scope module NOR2BXL $end
+$var wire      1 P+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 M+   Ax  $end
+$upscope $end
+
+
+$scope module NOR4X8 $end
+$var wire      1 Q+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NOR4X6 $end
+$var wire      1 R+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NOR4X4 $end
+$var wire      1 S+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NOR4X2 $end
+$var wire      1 T+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NOR4X1 $end
+$var wire      1 U+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NOR4XL $end
+$var wire      1 V+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NOR3X8 $end
+$var wire      1 W+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NOR3X6 $end
+$var wire      1 X+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NOR3X4 $end
+$var wire      1 Y+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NOR3X2 $end
+$var wire      1 Z+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NOR3X1 $end
+$var wire      1 [+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NOR3XL $end
+$var wire      1 \+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NOR2X8 $end
+$var wire      1 ]+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NOR2X6 $end
+$var wire      1 ^+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NOR2X4 $end
+$var wire      1 _+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NOR2X2 $end
+$var wire      1 `+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NOR2X1 $end
+$var wire      1 a+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NOR2XL $end
+$var wire      1 b+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NAND4BBX4 $end
+$var wire      1 c+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    BN  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 d+   Bx  $end
+$var wire      1 e+   Ax  $end
+$upscope $end
+
+
+$scope module NAND4BBX2 $end
+$var wire      1 f+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    BN  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 d+   Bx  $end
+$var wire      1 e+   Ax  $end
+$upscope $end
+
+
+$scope module NAND4BBX1 $end
+$var wire      1 g+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    BN  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 d+   Bx  $end
+$var wire      1 e+   Ax  $end
+$upscope $end
+
+
+$scope module NAND4BBXL $end
+$var wire      1 h+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    BN  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 d+   Bx  $end
+$var wire      1 e+   Ax  $end
+$upscope $end
+
+
+$scope module NAND4BX4 $end
+$var wire      1 i+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 j+   Ax  $end
+$upscope $end
+
+
+$scope module NAND4BX2 $end
+$var wire      1 k+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 j+   Ax  $end
+$upscope $end
+
+
+$scope module NAND4BX1 $end
+$var wire      1 l+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 j+   Ax  $end
+$upscope $end
+
+
+$scope module NAND4BXL $end
+$var wire      1 m+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 j+   Ax  $end
+$upscope $end
+
+
+$scope module NAND3BX4 $end
+$var wire      1 n+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 o+   Ax  $end
+$upscope $end
+
+
+$scope module NAND3BX2 $end
+$var wire      1 p+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 o+   Ax  $end
+$upscope $end
+
+
+$scope module NAND3BX1 $end
+$var wire      1 q+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 o+   Ax  $end
+$upscope $end
+
+
+$scope module NAND3BXL $end
+$var wire      1 r+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 o+   Ax  $end
+$upscope $end
+
+
+$scope module NAND2BX4 $end
+$var wire      1 s+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 t+   Ax  $end
+$upscope $end
+
+
+$scope module NAND2BX2 $end
+$var wire      1 u+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 t+   Ax  $end
+$upscope $end
+
+
+$scope module NAND2BX1 $end
+$var wire      1 v+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 t+   Ax  $end
+$upscope $end
+
+
+$scope module NAND2BXL $end
+$var wire      1 w+   Y  $end
+$var wire      1 p    AN  $end
+$var wire      1 p    B  $end
+$var wire      1 t+   Ax  $end
+$upscope $end
+
+
+$scope module NAND4X8 $end
+$var wire      1 x+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NAND4X6 $end
+$var wire      1 y+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NAND4X4 $end
+$var wire      1 z+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NAND4X2 $end
+$var wire      1 {+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NAND4X1 $end
+$var wire      1 |+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NAND4XL $end
+$var wire      1 }+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module NAND3X8 $end
+$var wire      1 ~+   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NAND3X6 $end
+$var wire      1 !,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NAND3X4 $end
+$var wire      1 ",   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NAND3X2 $end
+$var wire      1 #,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NAND3X1 $end
+$var wire      1 $,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NAND3XL $end
+$var wire      1 %,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module NAND2X8 $end
+$var wire      1 &,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NAND2X6 $end
+$var wire      1 ',   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NAND2X4 $end
+$var wire      1 (,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NAND2X2 $end
+$var wire      1 ),   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NAND2X1 $end
+$var wire      1 *,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module NAND2XL $end
+$var wire      1 +,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module MXI3X4 $end
+$var wire      1 ,,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$var wire      1 -,   YN  $end
+$upscope $end
+
+
+$scope module MXI3X2 $end
+$var wire      1 .,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$var wire      1 -,   YN  $end
+$upscope $end
+
+
+$scope module MXI3X1 $end
+$var wire      1 /,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$var wire      1 -,   YN  $end
+$upscope $end
+
+
+$scope module MXI3XL $end
+$var wire      1 0,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$var wire      1 -,   YN  $end
+$upscope $end
+
+
+$scope module MX3X4 $end
+$var wire      1 1,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$upscope $end
+
+
+$scope module MX3X2 $end
+$var wire      1 2,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$upscope $end
+
+
+$scope module MX3X1 $end
+$var wire      1 3,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$upscope $end
+
+
+$scope module MX3XL $end
+$var wire      1 4,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$upscope $end
+
+
+$scope module MXI4X4 $end
+$var wire      1 5,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$var wire      1 -,   YN  $end
+$upscope $end
+
+
+$scope module MXI4X2 $end
+$var wire      1 6,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$var wire      1 -,   YN  $end
+$upscope $end
+
+
+$scope module MXI4X1 $end
+$var wire      1 7,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$var wire      1 -,   YN  $end
+$upscope $end
+
+
+$scope module MXI4XL $end
+$var wire      1 8,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$var wire      1 -,   YN  $end
+$upscope $end
+
+
+$scope module MXI2X8 $end
+$var wire      1 9,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$var wire      1 6#   YN  $end
+$upscope $end
+
+
+$scope module MXI2X6 $end
+$var wire      1 :,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$var wire      1 6#   YN  $end
+$upscope $end
+
+
+$scope module MXI2X4 $end
+$var wire      1 ;,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$var wire      1 6#   YN  $end
+$upscope $end
+
+
+$scope module MXI2X2 $end
+$var wire      1 <,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$var wire      1 6#   YN  $end
+$upscope $end
+
+
+$scope module MXI2X1 $end
+$var wire      1 =,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$var wire      1 6#   YN  $end
+$upscope $end
+
+
+$scope module MXI2XL $end
+$var wire      1 >,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$var wire      1 6#   YN  $end
+$upscope $end
+
+
+$scope module MX4X4 $end
+$var wire      1 ?,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$upscope $end
+
+
+$scope module MX4X2 $end
+$var wire      1 @,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$upscope $end
+
+
+$scope module MX4X1 $end
+$var wire      1 A,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$upscope $end
+
+
+$scope module MX4XL $end
+$var wire      1 B,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$var wire      1 p    S0  $end
+$var wire      1 p    S1  $end
+$upscope $end
+
+
+$scope module MX2X8 $end
+$var wire      1 C,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module MX2X6 $end
+$var wire      1 D,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module MX2X4 $end
+$var wire      1 E,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module MX2X2 $end
+$var wire      1 F,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module MX2X1 $end
+$var wire      1 G,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module MX2XL $end
+$var wire      1 H,   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    S0  $end
+$upscope $end
+
+
+$scope module AO22X4 $end
+$var wire      1 I,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 J,   outA  $end
+$var wire      1 K,   outB  $end
+$upscope $end
+
+
+$scope module AO22X2 $end
+$var wire      1 L,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 J,   outA  $end
+$var wire      1 K,   outB  $end
+$upscope $end
+
+
+$scope module AO22XL $end
+$var wire      1 M,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 J,   outA  $end
+$var wire      1 K,   outB  $end
+$upscope $end
+
+
+$scope module AO21X4 $end
+$var wire      1 N,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 O,   outA  $end
+$upscope $end
+
+
+$scope module AO21X2 $end
+$var wire      1 P,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 O,   outA  $end
+$upscope $end
+
+
+$scope module AO21X1 $end
+$var wire      1 Q,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 O,   outA  $end
+$upscope $end
+
+
+$scope module AO21XL $end
+$var wire      1 R,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 O,   outA  $end
+$upscope $end
+
+
+$scope module AOI2BB2X4 $end
+$var wire      1 S,   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 T,   outA  $end
+$var wire      1 U,   outB  $end
+$upscope $end
+
+
+$scope module AOI2BB2X2 $end
+$var wire      1 V,   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 T,   outA  $end
+$var wire      1 U,   outB  $end
+$upscope $end
+
+
+$scope module AOI2BB2X1 $end
+$var wire      1 W,   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 T,   outA  $end
+$var wire      1 U,   outB  $end
+$upscope $end
+
+
+$scope module AOI2BB2XL $end
+$var wire      1 X,   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 T,   outA  $end
+$var wire      1 U,   outB  $end
+$upscope $end
+
+
+$scope module AOI2BB1X4 $end
+$var wire      1 Y,   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 Z,   outA  $end
+$upscope $end
+
+
+$scope module AOI2BB1X2 $end
+$var wire      1 [,   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 Z,   outA  $end
+$upscope $end
+
+
+$scope module AOI2BB1X1 $end
+$var wire      1 \,   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 Z,   outA  $end
+$upscope $end
+
+
+$scope module AOI2BB1XL $end
+$var wire      1 ],   Y  $end
+$var wire      1 p    A0N  $end
+$var wire      1 p    A1N  $end
+$var wire      1 p    B0  $end
+$var wire      1 Z,   outA  $end
+$upscope $end
+
+
+$scope module AOI33X4 $end
+$var wire      1 ^,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    B2  $end
+$var wire      1 _,   outA  $end
+$var wire      1 `,   outB  $end
+$upscope $end
+
+
+$scope module AOI33X2 $end
+$var wire      1 a,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    B2  $end
+$var wire      1 _,   outA  $end
+$var wire      1 `,   outB  $end
+$upscope $end
+
+
+$scope module AOI33X1 $end
+$var wire      1 b,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    B2  $end
+$var wire      1 _,   outA  $end
+$var wire      1 `,   outB  $end
+$upscope $end
+
+
+$scope module AOI33XL $end
+$var wire      1 c,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    B2  $end
+$var wire      1 _,   outA  $end
+$var wire      1 `,   outB  $end
+$upscope $end
+
+
+$scope module AOI32X4 $end
+$var wire      1 d,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 e,   outA  $end
+$var wire      1 f,   outB  $end
+$upscope $end
+
+
+$scope module AOI32X2 $end
+$var wire      1 g,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 e,   outA  $end
+$var wire      1 f,   outB  $end
+$upscope $end
+
+
+$scope module AOI32X1 $end
+$var wire      1 h,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 e,   outA  $end
+$var wire      1 f,   outB  $end
+$upscope $end
+
+
+$scope module AOI32XL $end
+$var wire      1 i,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 e,   outA  $end
+$var wire      1 f,   outB  $end
+$upscope $end
+
+
+$scope module AOI31X4 $end
+$var wire      1 j,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 k,   outA  $end
+$upscope $end
+
+
+$scope module AOI31X2 $end
+$var wire      1 l,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 k,   outA  $end
+$upscope $end
+
+
+$scope module AOI31X1 $end
+$var wire      1 m,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 k,   outA  $end
+$upscope $end
+
+
+$scope module AOI31XL $end
+$var wire      1 n,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    A2  $end
+$var wire      1 p    B0  $end
+$var wire      1 k,   outA  $end
+$upscope $end
+
+
+$scope module AOI222X4 $end
+$var wire      1 o,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 p    C1  $end
+$var wire      1 p,   outA  $end
+$var wire      1 q,   outB  $end
+$var wire      1 r,   outC  $end
+$upscope $end
+
+
+$scope module AOI222X2 $end
+$var wire      1 s,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 p    C1  $end
+$var wire      1 p,   outA  $end
+$var wire      1 q,   outB  $end
+$var wire      1 r,   outC  $end
+$upscope $end
+
+
+$scope module AOI222X1 $end
+$var wire      1 t,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 p    C1  $end
+$var wire      1 p,   outA  $end
+$var wire      1 q,   outB  $end
+$var wire      1 r,   outC  $end
+$upscope $end
+
+
+$scope module AOI222XL $end
+$var wire      1 u,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 p    C1  $end
+$var wire      1 p,   outA  $end
+$var wire      1 q,   outB  $end
+$var wire      1 r,   outC  $end
+$upscope $end
+
+
+$scope module AOI221X4 $end
+$var wire      1 v,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 w,   outA  $end
+$var wire      1 x,   outB  $end
+$upscope $end
+
+
+$scope module AOI221X2 $end
+$var wire      1 y,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 w,   outA  $end
+$var wire      1 x,   outB  $end
+$upscope $end
+
+
+$scope module AOI221X1 $end
+$var wire      1 z,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 w,   outA  $end
+$var wire      1 x,   outB  $end
+$upscope $end
+
+
+$scope module AOI221XL $end
+$var wire      1 {,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 p    C0  $end
+$var wire      1 w,   outA  $end
+$var wire      1 x,   outB  $end
+$upscope $end
+
+
+$scope module AOI22X4 $end
+$var wire      1 |,   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 },   outA  $end
+$var wire      1 ~,   outB  $end
+$upscope $end
+
+
+$scope module AOI22X2 $end
+$var wire      1 !-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 },   outA  $end
+$var wire      1 ~,   outB  $end
+$upscope $end
+
+
+$scope module AOI22X1 $end
+$var wire      1 "-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 },   outA  $end
+$var wire      1 ~,   outB  $end
+$upscope $end
+
+
+$scope module AOI22XL $end
+$var wire      1 #-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    B1  $end
+$var wire      1 },   outA  $end
+$var wire      1 ~,   outB  $end
+$upscope $end
+
+
+$scope module AOI211X4 $end
+$var wire      1 $-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    C0  $end
+$var wire      1 %-   outA  $end
+$upscope $end
+
+
+$scope module AOI211X2 $end
+$var wire      1 &-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    C0  $end
+$var wire      1 %-   outA  $end
+$upscope $end
+
+
+$scope module AOI211X1 $end
+$var wire      1 '-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    C0  $end
+$var wire      1 %-   outA  $end
+$upscope $end
+
+
+$scope module AOI211XL $end
+$var wire      1 (-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 p    C0  $end
+$var wire      1 %-   outA  $end
+$upscope $end
+
+
+$scope module AOI21X4 $end
+$var wire      1 )-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 *-   outA  $end
+$upscope $end
+
+
+$scope module AOI21X2 $end
+$var wire      1 +-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 *-   outA  $end
+$upscope $end
+
+
+$scope module AOI21X1 $end
+$var wire      1 ,-   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 *-   outA  $end
+$upscope $end
+
+
+$scope module AOI21XL $end
+$var wire      1 --   Y  $end
+$var wire      1 p    A0  $end
+$var wire      1 p    A1  $end
+$var wire      1 p    B0  $end
+$var wire      1 *-   outA  $end
+$upscope $end
+
+
+$scope module AND4X8 $end
+$var wire      1 .-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module AND4X6 $end
+$var wire      1 /-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module AND4X4 $end
+$var wire      1 0-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module AND4X2 $end
+$var wire      1 1-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module AND4X1 $end
+$var wire      1 2-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module AND4XL $end
+$var wire      1 3-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$var wire      1 p    D  $end
+$upscope $end
+
+
+$scope module AND3X8 $end
+$var wire      1 4-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module AND3X6 $end
+$var wire      1 5-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module AND3X4 $end
+$var wire      1 6-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module AND3X2 $end
+$var wire      1 7-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module AND3X1 $end
+$var wire      1 8-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module AND3XL $end
+$var wire      1 9-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$var wire      1 p    C  $end
+$upscope $end
+
+
+$scope module AND2X8 $end
+$var wire      1 :-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module AND2X6 $end
+$var wire      1 ;-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module AND2X4 $end
+$var wire      1 <-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module AND2X2 $end
+$var wire      1 =-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module AND2X1 $end
+$var wire      1 >-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module AND2XL $end
+$var wire      1 ?-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    B  $end
+$upscope $end
+
+
+$scope module HOLDX1 $end
+$var wire      1 @-   Y  $end
+$var wire      1 @-   io_wire  $end
+$upscope $end
+
+
+$scope module TBUFX20 $end
+$var wire      1 A-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFX16 $end
+$var wire      1 B-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFX12 $end
+$var wire      1 C-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFX8 $end
+$var wire      1 D-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFX6 $end
+$var wire      1 E-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFX4 $end
+$var wire      1 F-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFX3 $end
+$var wire      1 G-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFX2 $end
+$var wire      1 H-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFX1 $end
+$var wire      1 I-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module TBUFXL $end
+$var wire      1 J-   Y  $end
+$var wire      1 p    A  $end
+$var wire      1 p    OE  $end
+$upscope $end
+
+
+$scope module INVX20 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVX16 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVX12 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVX8 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVX6 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVX4 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVX3 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVX2 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVX1 $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module INVXL $end
+$var wire      1 4*   Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module BUFX20 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module BUFX16 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module BUFX12 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module BUFX8 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module BUFX6 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module BUFX4 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module BUFX3 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+
+$scope module BUFX2 $end
+$var wire      1 o    Y  $end
+$var wire      1 p    A  $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+b0 "
+0#
+x$
+x%
+x&
+x'
+x(
+x)
+x*
+x+
+x,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+x>
+x?
+x@
+xA
+xB
+xC
+xD
+xE
+xF
+xG
+xH
+xI
+xJ
+xK
+xL
+xM
+xN
+xO
+xP
+xQ
+1R
+xS
+xT
+0U
+1V
+xW
+1X
+xY
+xZ
+x[
+x\
+x]
+x^
+x_
+x`
+xa
+xb
+xc
+xd
+1e
+xf
+xg
+0h
+1i
+xj
+1k
+xl
+0m
+1n
+xo
+zp
+xq
+xr
+xs
+xt
+xu
+xv
+xw
+xx
+xy
+xz
+x{
+x|
+x}
+x~
+x!!
+x"!
+x#!
+x$!
+x%!
+x&!
+x'!
+x(!
+x)!
+x*!
+x+!
+x,!
+x-!
+x.!
+x/!
+x0!
+x1!
+x2!
+x3!
+x4!
+x5!
+x6!
+x7!
+x8!
+x9!
+x:!
+x;!
+x<!
+1=!
+x>!
+x?!
+1@!
+xA!
+xB!
+xC!
+xD!
+xE!
+xF!
+xG!
+xH!
+xI!
+xJ!
+xK!
+xL!
+xM!
+xN!
+xO!
+xP!
+xQ!
+xR!
+xS!
+xT!
+xU!
+xV!
+xW!
+xX!
+xY!
+xZ!
+x[!
+x\!
+x]!
+x^!
+x_!
+x`!
+xa!
+xb!
+xc!
+xd!
+xe!
+xf!
+xg!
+xh!
+xi!
+xj!
+xk!
+xl!
+xm!
+xn!
+xo!
+xp!
+xq!
+xr!
+xs!
+xt!
+xu!
+xv!
+xw!
+xx!
+xy!
+xz!
+x{!
+x|!
+x}!
+x~!
+x!"
+x""
+x#"
+x$"
+x%"
+x&"
+x'"
+x("
+x)"
+x*"
+x+"
+x,"
+x-"
+x."
+x/"
+x0"
+x1"
+x2"
+x3"
+x4"
+x5"
+x6"
+x7"
+x8"
+x9"
+x:"
+x;"
+x<"
+x="
+x>"
+x?"
+x@"
+xA"
+xB"
+xC"
+xD"
+xE"
+xF"
+xG"
+xH"
+xI"
+xJ"
+xK"
+xL"
+xM"
+xN"
+xO"
+xP"
+xQ"
+xR"
+xS"
+xT"
+xU"
+xV"
+xW"
+xX"
+xY"
+xZ"
+x["
+x\"
+x]"
+x^"
+x_"
+x`"
+xa"
+xb"
+xc"
+xd"
+xe"
+xf"
+xg"
+xh"
+xi"
+xj"
+xk"
+xl"
+xm"
+xn"
+xo"
+xp"
+xq"
+xr"
+xs"
+xt"
+xu"
+xv"
+xw"
+xx"
+xy"
+xz"
+x{"
+x|"
+x}"
+x~"
+x!#
+x"#
+x##
+x$#
+x%#
+x&#
+x'#
+x(#
+x)#
+x*#
+x+#
+x,#
+x-#
+x.#
+x/#
+x0#
+x1#
+x2#
+x3#
+x4#
+x5#
+x6#
+x7#
+x8#
+x9#
+x:#
+x;#
+x<#
+x=#
+x>#
+x?#
+x@#
+xA#
+xB#
+xC#
+xD#
+xE#
+xF#
+xG#
+xH#
+xI#
+xJ#
+xK#
+xL#
+xM#
+xN#
+xO#
+xP#
+xQ#
+xR#
+xS#
+xT#
+xU#
+xV#
+xW#
+xX#
+xY#
+xZ#
+x[#
+x\#
+x]#
+x^#
+x_#
+x`#
+xa#
+xb#
+xc#
+xd#
+xe#
+xf#
+xg#
+xh#
+xi#
+xj#
+xk#
+xl#
+xm#
+xn#
+xo#
+xp#
+xq#
+xr#
+xs#
+xt#
+xu#
+xv#
+xw#
+xx#
+xy#
+xz#
+x{#
+x|#
+x}#
+x~#
+x!$
+x"$
+x#$
+x$$
+x%$
+x&$
+x'$
+x($
+x)$
+x*$
+x+$
+x,$
+x-$
+x.$
+x/$
+x0$
+x1$
+x2$
+x3$
+x4$
+x5$
+x6$
+x7$
+x8$
+x9$
+x:$
+x;$
+x<$
+x=$
+x>$
+x?$
+x@$
+xA$
+xB$
+xC$
+xD$
+xE$
+xF$
+xG$
+xH$
+xI$
+xJ$
+xK$
+xL$
+xM$
+xN$
+xO$
+xP$
+xQ$
+xR$
+xS$
+xT$
+xU$
+xV$
+xW$
+xX$
+xY$
+xZ$
+x[$
+x\$
+x]$
+x^$
+x_$
+x`$
+xa$
+xb$
+xc$
+xd$
+xe$
+xf$
+xg$
+xh$
+xi$
+xj$
+xk$
+xl$
+xm$
+xn$
+xo$
+xp$
+xq$
+xr$
+xs$
+xt$
+xu$
+xv$
+xw$
+xx$
+xy$
+xz$
+x{$
+x|$
+x}$
+x~$
+x!%
+x"%
+x#%
+x$%
+x%%
+x&%
+x'%
+x(%
+x)%
+x*%
+x+%
+x,%
+x-%
+x.%
+x/%
+x0%
+x1%
+x2%
+x3%
+x4%
+x5%
+x6%
+x7%
+x8%
+x9%
+x:%
+x;%
+x<%
+x=%
+x>%
+x?%
+x@%
+xA%
+xB%
+xC%
+xD%
+xE%
+xF%
+xG%
+xH%
+xI%
+xJ%
+xK%
+xL%
+xM%
+xN%
+xO%
+xP%
+xQ%
+xR%
+xS%
+xT%
+xU%
+xV%
+xW%
+xX%
+xY%
+xZ%
+x[%
+x\%
+x]%
+x^%
+x_%
+x`%
+xa%
+xb%
+xc%
+xd%
+xe%
+xf%
+xg%
+xh%
+xi%
+xj%
+xk%
+xl%
+xm%
+xn%
+xo%
+xp%
+xq%
+xr%
+xs%
+xt%
+xu%
+xv%
+xw%
+xx%
+xy%
+xz%
+x{%
+x|%
+x}%
+x~%
+x!&
+x"&
+x#&
+x$&
+x%&
+x&&
+x'&
+x(&
+x)&
+x*&
+x+&
+x,&
+x-&
+x.&
+x/&
+x0&
+x1&
+x2&
+x3&
+x4&
+x5&
+x6&
+x7&
+x8&
+x9&
+x:&
+x;&
+x<&
+x=&
+x>&
+x?&
+x@&
+xA&
+xB&
+xC&
+xD&
+xE&
+xF&
+xG&
+xH&
+xI&
+xJ&
+xK&
+xL&
+xM&
+xN&
+xO&
+xP&
+xQ&
+xR&
+xS&
+xT&
+xU&
+xV&
+xW&
+xX&
+xY&
+xZ&
+x[&
+x\&
+x]&
+x^&
+x_&
+x`&
+xa&
+xb&
+xc&
+xd&
+xe&
+xf&
+xg&
+xh&
+xi&
+xj&
+xk&
+xl&
+xm&
+xn&
+xo&
+xp&
+xq&
+xr&
+xs&
+xt&
+xu&
+xv&
+xw&
+xx&
+xy&
+xz&
+x{&
+x|&
+x}&
+x~&
+x!'
+x"'
+x#'
+x$'
+x%'
+x&'
+x''
+x('
+x)'
+x*'
+x+'
+x,'
+x-'
+x.'
+x/'
+x0'
+x1'
+x2'
+x3'
+x4'
+x5'
+x6'
+x7'
+x8'
+x9'
+x:'
+x;'
+x<'
+x='
+x>'
+x?'
+x@'
+xA'
+xB'
+xC'
+xD'
+xE'
+xF'
+xG'
+xH'
+xI'
+xJ'
+xK'
+xL'
+xM'
+xN'
+xO'
+xP'
+xQ'
+xR'
+xS'
+xT'
+xU'
+xV'
+xW'
+xX'
+xY'
+xZ'
+x['
+x\'
+x]'
+x^'
+x_'
+x`'
+xa'
+xb'
+xc'
+xd'
+xe'
+xf'
+xg'
+xh'
+xi'
+xj'
+xk'
+xl'
+xm'
+xn'
+xo'
+xp'
+xq'
+xr'
+xs'
+xt'
+xu'
+xv'
+xw'
+xx'
+xy'
+xz'
+x{'
+x|'
+x}'
+x~'
+x!(
+x"(
+x#(
+x$(
+x%(
+x&(
+x'(
+x((
+x)(
+x*(
+x+(
+x,(
+x-(
+x.(
+x/(
+x0(
+x1(
+x2(
+x3(
+x4(
+x5(
+x6(
+x7(
+x8(
+x9(
+x:(
+x;(
+x<(
+x=(
+x>(
+x?(
+x@(
+xA(
+xB(
+xC(
+xD(
+xE(
+xF(
+xG(
+xH(
+xI(
+xJ(
+xK(
+xL(
+xM(
+xN(
+xO(
+xP(
+xQ(
+xR(
+xS(
+xT(
+xU(
+xV(
+xW(
+xX(
+xY(
+xZ(
+x[(
+x\(
+x](
+x^(
+x_(
+x`(
+xa(
+xb(
+xc(
+xd(
+xe(
+xf(
+xg(
+xh(
+xi(
+xj(
+xk(
+xl(
+xm(
+xn(
+xo(
+xp(
+xq(
+xr(
+xs(
+xt(
+xu(
+xv(
+xw(
+xx(
+xy(
+xz(
+x{(
+x|(
+x}(
+x~(
+x!)
+x")
+x#)
+x$)
+x%)
+x&)
+x')
+x()
+x))
+x*)
+x+)
+x,)
+x-)
+x.)
+x/)
+x0)
+x1)
+x2)
+x3)
+x4)
+x5)
+x6)
+x7)
+x8)
+x9)
+x:)
+x;)
+x<)
+x=)
+x>)
+x?)
+x@)
+xA)
+xB)
+xC)
+xD)
+xE)
+xF)
+xG)
+xH)
+xI)
+xJ)
+xK)
+xL)
+xM)
+xN)
+xO)
+xP)
+xQ)
+xR)
+xS)
+xT)
+xU)
+xV)
+xW)
+xX)
+xY)
+xZ)
+x[)
+x\)
+x])
+x^)
+x_)
+x`)
+xa)
+xb)
+xc)
+xd)
+xe)
+xf)
+xg)
+xh)
+xi)
+xj)
+xk)
+xl)
+xm)
+xn)
+xo)
+xp)
+xq)
+xr)
+xs)
+xt)
+xu)
+xv)
+xw)
+xx)
+xy)
+xz)
+x{)
+x|)
+x})
+x~)
+x!*
+x"*
+x#*
+x$*
+x%*
+x&*
+x'*
+x(*
+x)*
+x**
+x+*
+x,*
+x-*
+x.*
+x/*
+x0*
+x1*
+x2*
+x3*
+x4*
+x5*
+x6*
+x7*
+x8*
+x9*
+x:*
+x;*
+x<*
+x=*
+x>*
+x?*
+x@*
+xA*
+xB*
+xC*
+xD*
+xE*
+xF*
+xG*
+xH*
+xI*
+xJ*
+xK*
+xL*
+xM*
+xN*
+xO*
+xP*
+xQ*
+xR*
+xS*
+xT*
+xU*
+xV*
+xW*
+xX*
+xY*
+xZ*
+x[*
+x\*
+x]*
+x^*
+x_*
+x`*
+xa*
+xb*
+xc*
+xd*
+xe*
+xf*
+xg*
+xh*
+xi*
+xj*
+xk*
+xl*
+xm*
+xn*
+xo*
+xp*
+xq*
+xr*
+xs*
+xt*
+xu*
+xv*
+xw*
+xx*
+xy*
+xz*
+x{*
+x|*
+x}*
+x~*
+x!+
+x"+
+x#+
+x$+
+x%+
+x&+
+x'+
+x(+
+x)+
+x*+
+x++
+x,+
+x-+
+x.+
+x/+
+x0+
+x1+
+x2+
+x3+
+x4+
+x5+
+x6+
+x7+
+x8+
+x9+
+x:+
+x;+
+x<+
+x=+
+x>+
+x?+
+x@+
+xA+
+xB+
+xC+
+xD+
+xE+
+xF+
+xG+
+xH+
+xI+
+xJ+
+xK+
+xL+
+xM+
+xN+
+xO+
+xP+
+xQ+
+xR+
+xS+
+xT+
+xU+
+xV+
+xW+
+xX+
+xY+
+xZ+
+x[+
+x\+
+x]+
+x^+
+x_+
+x`+
+xa+
+xb+
+xc+
+xd+
+xe+
+xf+
+xg+
+xh+
+xi+
+xj+
+xk+
+xl+
+xm+
+xn+
+xo+
+xp+
+xq+
+xr+
+xs+
+xt+
+xu+
+xv+
+xw+
+xx+
+xy+
+xz+
+x{+
+x|+
+x}+
+x~+
+x!,
+x",
+x#,
+x$,
+x%,
+x&,
+x',
+x(,
+x),
+x*,
+x+,
+x,,
+x-,
+x.,
+x/,
+x0,
+x1,
+x2,
+x3,
+x4,
+x5,
+x6,
+x7,
+x8,
+x9,
+x:,
+x;,
+x<,
+x=,
+x>,
+x?,
+x@,
+xA,
+xB,
+xC,
+xD,
+xE,
+xF,
+xG,
+xH,
+xI,
+xJ,
+xK,
+xL,
+xM,
+xN,
+xO,
+xP,
+xQ,
+xR,
+xS,
+xT,
+xU,
+xV,
+xW,
+xX,
+xY,
+xZ,
+x[,
+x\,
+x],
+x^,
+x_,
+x`,
+xa,
+xb,
+xc,
+xd,
+xe,
+xf,
+xg,
+xh,
+xi,
+xj,
+xk,
+xl,
+xm,
+xn,
+xo,
+xp,
+xq,
+xr,
+xs,
+xt,
+xu,
+xv,
+xw,
+xx,
+xy,
+xz,
+x{,
+x|,
+x},
+x~,
+x!-
+x"-
+x#-
+x$-
+x%-
+x&-
+x'-
+x(-
+x)-
+x*-
+x+-
+x,-
+x--
+x.-
+x/-
+x0-
+x1-
+x2-
+x3-
+x4-
+x5-
+x6-
+x7-
+x8-
+x9-
+x:-
+x;-
+x<-
+x=-
+x>-
+x?-
+x@-
+xA-
+xB-
+xC-
+xD-
+xE-
+xF-
+xG-
+xH-
+xI-
+xJ-
+$end
+#77
+1Q
+#126
+0C
+0?
+0g
+0T
+#127
+0D
+0B
+0@
+0>
+#132
+0E
+0A
+0l
+0Y
+#183
+0M
+0W
+#245
+1P
+1O
+1c
+1b
+#301
+0,
+#312
+1]
+1J
+#314
+1[
+1_
+1H
+1L
+#334
+0N
+#342
+0F
+#346
+1d
+#349
+0K
+0^
+#451
+0I
+0\
+0f
+0S
+#452
+0`
+0j
+#492
+0*
+#494
+0%
+0)
+#496
+0a
+#512
+0+
+#584
+0Z
+0G
+#596
+0$
+0(
+#597
+0&
+#674
+0'
+#5000
+b11001100 !
+b10101010 "
+15
+17
+19
+1;
+1-
+1.
+11
+12
+1S
+1f
+#5093
+1G
+1Z
+#5098
+1D
+1B
+1@
+1>
+#5129
+0J
+0]
+#5207
+0O
+0b
+#5254
+1%
+1)
+#5278
+1,
+#5289
+0_
+0L
+#5316
+1F
+#5414
+1*
+1&
+#5431
+1a
+#5587
+1'
+#10000
+b10011001 !
+b1010101 "
+05
+16
+07
+18
+09
+1:
+0;
+1<
+0.
+10
+02
+14
+1Y
+1l
+#10066
+0d
+1+
+#10092
+1J
+1]
+#10097
+1C
+1?
+1g
+1T
+#10104
+0'
+#10109
+1E
+1A
+0k
+0X
+#10127
+0D
+0B
+0@
+0>
+#10184
+1`
+1j
+#10190
+0G
+0Z
+0g
+0T
+#10245
+1O
+1b
+#10270
+0%
+0)
+#10288
+0]
+0J
+#10300
+1N
+#10301
+0,
+#10311
+0a
+#10314
+1_
+1L
+#10318
+0[
+0H
+#10319
+1M
+1W
+#10342
+0F
+#10413
+1)
+1%
+#10443
+1(
+1$
+#10446
+1d
+#10457
+1a
+#10478
+0+
+#15000
+b110011 !
+b10101010 "
+15
+06
+17
+08
+19
+0:
+1;
+0<
+0-
+1/
+01
+13
+0V
+0S
+0i
+0f
+#15092
+1H
+1[
+#15098
+1D
+1B
+1@
+1>
+#15126
+0C
+0?
+#15132
+0E
+0A
+1k
+1X
+#15158
+1^
+1K
+#15207
+0P
+0c
+#15270
+0$
+0(
+#15289
+0[
+0H
+#15290
+1G
+1Z
+#15303
+0)
+0%
+#15312
+1]
+1J
+#15334
+0a
+0N
+#15341
+0M
+0`
+1i
+1V
+#15414
+1(
+1$
+#15437
+1)
+1%
+#15486
+0&
+0*
+#15490
+1+
+1'
+#20000
+b1100110 !
+b1010101 "
+05
+16
+07
+18
+09
+1:
+0;
+1<
+1.
+00
+12
+04
+0Y
+1U
+0l
+1h
+#20097
+1C
+1?
+1g
+1T
+#20104
+0+
+0'
+#20109
+1E
+1A
+1l
+1Y
+#20127
+0D
+0B
+0@
+0>
+#20208
+1\
+1I
+1S
+1f
+#20245
+1P
+1c
+#20300
+1a
+1N
+#20314
+1[
+1H
+#20318
+0_
+0L
+#20349
+0K
+0^
+0h
+0U
+#20443
+1*
+1&
+#20456
+1+
+1'
+#20494
+0%
+0)
+#25000
+b11111111 !
+b11111111 "
+15
+17
+19
+1;
+1-
+10
+11
+14
+0X
+0R
+0k
+0e
+#25098
+1D
+1B
+1@
+1>
+#25104
+0+
+0'
+#25106
+1,
+#25149
+1F
+#25167
+1`
+1M
+0V
+0i
+#25207
+0P
+0O
+0c
+0b
+#25235
+0d
+#25285
+1_
+1L
+#25303
+0a
+#25355
+1^
+1K
+1U
+1h
+#25459
+1'
+#25491
+1)
+1%
+#30000
+b11001100 !
+b10101010 "
+1#
+06
+08
+0:
+0<
+0/
+00
+03
+04
+1=
+1X
+1V
+1k
+1i
+#30058
+0Q
+#30066
+1+
+#30104
+0'
+#30119
+0N
+#30129
+0L
+0_
+#30140
+0D
+0B
+0@
+0>
+#30258
+1P
+1O
+1c
+1b
+#30297
+0+
+#30307
+0&
+0*
+#30327
+1_
+1L
+#30331
+0[
+0H
+#30362
+0K
+0^
+0h
+0U
+#30452
+1*
+1&
+#30507
+0%
+0)
+#30509
+0(
+0$
+#35000
+b10011001 !
+b1010101 "
+05
+16
+07
+18
+09
+1:
+0;
+1<
+0.
+10
+02
+14
+0X
+0k
+#35066
+1+
+1'
+#35098
+1D
+1B
+1@
+1>
+#35126
+0C
+0?
+0g
+0T
+#35132
+0E
+0A
+1k
+1X
+#35190
+0G
+0Z
+#35207
+0P
+0O
+0c
+0b
+#35285
+1[
+1H
+#35289
+0_
+0L
+#35323
+1a
+1N
+#35325
+1K
+1^
+#35410
+1(
+1$
+#35451
+0I
+0\
+1e
+1R
+#35457
+1Z
+1G
+#35461
+1%
+1)
+#35467
+0*
+0&
+#35501
+0+
+0'
+#35596
+0$
+0(
+#40000
+b110011 !
+b10101010 "
+15
+06
+17
+08
+19
+0:
+1;
+0<
+0-
+1/
+01
+13
+0V
+0S
+0i
+0f
+#40092
+1L
+1_
+#40097
+1C
+1?
+1g
+1T
+#40109
+1E
+1A
+0k
+0X
+#40127
+0D
+0B
+0@
+0>
+#40167
+1b
+1O
+#40217
+1&
+1*
+#40223
+0,
+#40245
+1P
+1c
+#40264
+0F
+#40288
+0]
+0J
+#40311
+0N
+#40316
+1I
+1\
+1f
+1S
+#40318
+0_
+0L
+#40368
+1d
+#40452
+1$
+1(
+#40466
+0)
+0%
+#40467
+1+
+#40496
+0*
+0&
+#45000
+b1100110 !
+b1010101 "
+05
+16
+07
+18
+09
+1:
+0;
+1<
+1.
+00
+12
+04
+1X
+1U
+1k
+1h
+#45066
+1'
+#45092
+1J
+1]
+#45098
+1D
+1B
+1@
+1>
+#45104
+0+
+#45126
+0C
+0?
+0g
+0T
+#45132
+0E
+0A
+0l
+0Y
+#45179
+0`
+1i
+#45207
+0P
+0O
+0c
+0b
+#45217
+1%
+1)
+#45278
+1,
+#45285
+1_
+1L
+#45289
+0[
+0H
+#45316
+1F
+#45317
+0]
+0J
+#45323
+1N
+#45346
+1Q
+#45410
+1*
+#45452
+0M
+1V
+#45467
+0(
+0$
+#45479
+1+
+#45495
+0)
+0%
+#45597
+0*
+#50000
+b11111111 !
+b11111111 "
+15
+17
+19
+1;
+1-
+10
+11
+14
+1Y
+0R
+1l
+0e
+#50066
+0d
+0Q
+#50092
+1H
+1[
+#50104
+0+
+0'
+#50127
+0D
+0B
+0@
+0>
+#50184
+1`
+1M
+0V
+0i
+#50217
+1$
+1(
+#50245
+1P
+1O
+1c
+1b
+#50318
+0[
+0_
+0H
+0L
+#50496
+0(
+0$
+#55000
